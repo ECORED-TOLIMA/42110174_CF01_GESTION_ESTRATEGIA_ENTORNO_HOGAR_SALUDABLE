@@ -2,35 +2,27 @@
 .curso-main-container.pb-3
   BannerInterno(icono="fas fa-sitemap" titulo="Síntesis")
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
-    p Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris eu tincidunt erat. Fusce cursus mauris in nulla egestas vulputate. Phasellus viverra accumsan libero, sed luctus diam maximus euismod. Mauris sem risus, tincidunt vel libero in, lobortis commodo ante. Sed pulvinar luctus orci in rhoncus. Nulla ut dapibus risus, ac tempor est. Donec nulla augue, vehicula quis malesuada vitae, fermentum non nisi. Donec tincidunt nibh a magna bibendum rutrum.
+    p La estrategia de entorno hogar saludable integra saberes conceptuales, operativos y metodológicos que permiten comprender la salud de las familias desde su contexto cotidiano. A lo largo de los contenidos se analizaron los fundamentos de la estrategia, el marco conceptual y operativo, el enfoque territorial e intersectorial, los determinantes sociales, las intervenciones en el entorno hogar y la promoción de la salud como elementos articulados que orientan la planeación de acciones con las familias colombianas.
     .row.justify-content-center
-      .col-lg-10.mb-5.bgs.p-4.brad
+      .col-lg-12.mb-5
         figure
-          img(src="@/assets/curso/sintesis.svg", alt="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris eu tincidunt erat. Fusce cursus mauris in nulla egestas vulputate. Phasellus viverra accumsan libero, sed luctus diam maximus euismod. Mauris sem risus, tincidunt vel libero in, lobortis commodo ante. Sed pulvinar luctus orci in rhoncus. Nulla ut dapibus risus, ac tempor est. Donec nulla augue, vehicula quis malesuada vitae, fermentum non nisi. Donec tincidunt nibh a magna bibendum rutrum. ")
+          img(src="@/assets/curso/sintesis.svg" alt="Mapa conceptual de la estrategia de entorno hogar saludable: articula fundamentos, marco conceptual y operativo, enfoque territorial e intersectorial, determinantes sociales, intervenciones, promoción de la salud y formulación del plan de acción.")
       .col-auto
         a.anexo.mb-5(:href="obtenerLink('/downloads/Sintesis.pdf')" target="_blank")
           .anexo__icono
-            img(src="@/assets/bullets/icono-pdf.svg")
+            img(src="@/assets/bullets/icono-pdf.svg" alt="")
           .anexo__texto
             p Anexo. Síntesis
-
 </template>
 
 <script>
 export default {
   name: 'Sintesis',
-  data: () => ({
-    // variables de vue
-  }),
   mounted() {
-    this.$nextTick(() => {
-      this.$aosRefresh()
-    })
+    this.$nextTick(() => this.$aosRefresh())
   },
   updated() {
     this.$aosRefresh()
   },
 }
 </script>
-
-<style lang="sass"></style>

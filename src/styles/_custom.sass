@@ -19,8 +19,23 @@
 .banner-principal .tarjeta
   background-position: left 50% !important
 
-.banner-principal__row .banner-principal__img
-  width: 400px !important  
+.banner-principal
+  .container.tarjeta
+    background-image: url("../assets/curso/portada/fondo-banner-principal.png")
+    background-size: 100% 100% !important
+    background-position: center
+    min-height: 520px
+    @media (max-width: $bp-max-md)
+      background-image: url("../assets/curso/portada/fondo-banner-principal-md.png") !important
+    @media (max-width: $bp-max-xs)
+      background-image: url("../assets/curso/portada/fondo-banner-principal-sm.png") !important
+
+.banner-interno__fondo
+  background-image: url("../assets/curso/portada/imgbaner.png") !important
+
+.banner-interno__titulo__icono
+    background-color: #000
+    color: #000 !important
 
 .titulo-principal.color-acento-contenido .titulo-principal__numero span
   color: white !important
@@ -30,3 +45,6 @@
 
 figcaption
   font-weight: normal
+
+.bgprimario
+  background-color: #FFF7ED

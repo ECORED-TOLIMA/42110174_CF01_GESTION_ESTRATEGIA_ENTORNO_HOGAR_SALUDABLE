@@ -1,427 +1,270 @@
 <template lang="pug">
-  .curso-main-container.pb-3
-    BannerInterno(icono="far fa-question-circle" titulo="Actividad didáctica")
-    .container.tarjeta.tarjeta--blanca.p-4.p-md-5
-  
-      #Actividad                
-        <Actividad :cuestionario="cuestionario"/>
-  
-  </template>
+.curso-main-container.pb-3
+  BannerInterno(icono="far fa-question-circle" titulo="Actividad didáctica")
+  .container.tarjeta.tarjeta--blanca.p-4.p-md-5
+    #Actividad
+      Actividad(:cuestionario="cuestionario")
+</template>
 
 <script>
 import Actividad from 'ecored-pkg-fliz/plugin/components/actividad/Actividad.vue'
+
+const bancoPreguntas = [
+  [
+    '¿Qué se entiende por entorno hogar saludable?',
+    [
+      'Solo la estructura física de la vivienda.',
+      'Un espacio con servicios básicos únicamente.',
+      'Condiciones físicas, sociales y conductuales que favorecen la salud.',
+      'Un programa institucional de salud.',
+    ],
+    2,
+    'Correcto. El entorno hogar saludable integra condiciones físicas, sociales y comportamentales que influyen en el bienestar, no solo aspectos estructurales.',
+  ],
+  [
+    '¿Cuál es el enfoque principal de la Atención Primaria en Salud (APS)?',
+    [
+      'Tratamiento especializado.',
+      'Prevención y promoción.',
+      'Atención de emergencias.',
+      'Atención hospitalaria.',
+    ],
+    1,
+    'Correcto. La APS prioriza la promoción de la salud y la prevención de la enfermedad como base del sistema de salud.',
+  ],
+  [
+    '¿Qué permite el análisis del territorio?',
+    [
+      'Solo conocer la ubicación geográfica.',
+      'Identificar enfermedades únicamente.',
+      'Definir recursos hospitalarios.',
+      'Comprender condiciones y necesidades de la población.',
+    ],
+    3,
+    'Correcto. El análisis territorial permite entender el contexto y orientar intervenciones pertinentes.',
+  ],
+  [
+    '¿Cuál es el propósito de la caracterización?',
+    [
+      'Aplicar tratamientos médicos.',
+      'Identificar necesidades y condiciones de la población.',
+      'Medir indicadores económicos.',
+      'Evaluar infraestructura hospitalaria.',
+    ],
+    1,
+    'Correcto. La caracterización permite recolectar información clave para la toma de decisiones.',
+  ],
+  [
+    '¿Qué elemento es clave en la priorización de intervenciones?',
+    [
+      'Magnitud y gravedad del problema.',
+      'Preferencia del profesional.',
+      'Disponibilidad de tiempo.',
+      'Opinión del usuario.',
+    ],
+    0,
+    'Correcto. La priorización se basa en criterios técnicos como magnitud, gravedad e impacto.',
+  ],
+  [
+    '¿Qué caracteriza el enfoque territorial?',
+    [
+      'Aplicar las mismas acciones en todos los lugares.',
+      'Adaptar las intervenciones al contexto.',
+      'Centrarse en hospitales.',
+      'Ignorar las condiciones sociales.',
+    ],
+    1,
+    'Correcto. El enfoque territorial adapta las acciones según las características del contexto.',
+  ],
+  [
+    '¿Qué es la articulación intersectorial?',
+    [
+      'Trabajo exclusivo del sector salud.',
+      'Atención médica individual.',
+      'Coordinación entre diferentes sectores.',
+      'Aplicación de normas.',
+    ],
+    2,
+    'Correcto. Permite intervenir los determinantes sociales desde múltiples sectores.',
+  ],
+  [
+    '¿Qué son los determinantes sociales de la salud?',
+    [
+      'Condiciones que influyen en la salud.',
+      'Enfermedades frecuentes.',
+      'Medicamentos disponibles.',
+      'Protocolos médicos.',
+    ],
+    0,
+    'Correcto. Son factores sociales, económicos y ambientales que afectan la salud.',
+  ],
+  [
+    '¿Cuál es un determinante material?',
+    [
+      'Actividad física.',
+      'Calidad de la vivienda.',
+      'Relaciones familiares.',
+      'Ingresos económicos.',
+    ],
+    1,
+    'Correcto. Los determinantes materiales incluyen condiciones físicas como la vivienda.',
+  ],
+  [
+    '¿Qué son factores conductuales?',
+    [
+      'Condiciones del territorio.',
+      'Hábitos y comportamientos.',
+      'Servicios de salud.',
+      'Factores económicos.',
+    ],
+    1,
+    'Correcto. Son prácticas como la alimentación o la actividad física.',
+  ],
+  [
+    '¿Cuál es un factor protector?',
+    [
+      'Consumo de alcohol.',
+      'Hacinamiento.',
+      'Mala alimentación.',
+      'Redes de apoyo.',
+    ],
+    3,
+    'Correcto. Las redes de apoyo fortalecen el bienestar y reducen riesgos.',
+  ],
+  [
+    '¿Qué permite la cohesión social?',
+    [
+      'Aumentar conflictos.',
+      'Reducir el acceso a servicios.',
+      'Generar aislamiento.',
+      'Mejorar las relaciones y el bienestar.',
+    ],
+    3,
+    'Correcto. La cohesión social favorece la convivencia y la salud.',
+  ],
+  [
+    '¿Qué es un factor de riesgo?',
+    [
+      'Una condición que mejora la salud.',
+      'Una situación que aumenta la probabilidad de enfermedad.',
+      'Un servicio de salud.',
+      'Una actividad preventiva.',
+    ],
+    1,
+    'Correcto. Son condiciones que pueden afectar negativamente la salud.',
+  ],
+  [
+    '¿Qué evalúa la calidad de la vivienda?',
+    [
+      'Ingresos familiares.',
+      'Nivel educativo.',
+      'Condiciones físicas y ambientales.',
+      'Actividad laboral.',
+    ],
+    2,
+    'Correcto. Incluye ventilación, higiene y servicios básicos.',
+  ],
+  [
+    '¿Qué incluye el entorno social?',
+    [
+      'Solo la vivienda.',
+      'Relaciones familiares y vecindario.',
+      'Hospitales.',
+      'Medicamentos.',
+    ],
+    1,
+    'Correcto. El entorno social integra relaciones y condiciones del entorno cercano.',
+  ],
+  [
+    '¿Cuál es el objetivo de la promoción de la salud?',
+    [
+      'Aumentar el control sobre la salud.',
+      'Curar enfermedades.',
+      'Aplicar tratamientos.',
+      'Diagnosticar enfermedades.',
+    ],
+    0,
+    'Correcto. Busca fortalecer capacidades para mejorar la salud.',
+  ],
+  [
+    '¿Qué permite la educación en salud?',
+    [
+      'Diagnosticar enfermedades.',
+      'Aplicar tratamientos.',
+      'Fortalecer conocimientos y prácticas saludables.',
+      'Evaluar hospitales.',
+    ],
+    2,
+    'Correcto. Promueve cambios en hábitos y comportamientos.',
+  ],
+  [
+    '¿Qué implica el acceso a servicios de salud?',
+    [
+      'Solo disponibilidad.',
+      'Uso adecuado de los servicios.',
+      'Atención hospitalaria.',
+      'Medicamentos gratuitos.',
+    ],
+    1,
+    'Correcto. Incluye la disponibilidad y el uso efectivo de los servicios.',
+  ],
+  [
+    '¿Para qué sirve el plan de acción?',
+    [
+      'Medir indicadores.',
+      'Clasificar la población.',
+      'Organizar las intervenciones.',
+      'Diagnosticar enfermedades.',
+    ],
+    2,
+    'Correcto. Permite organizar actividades, responsables, recursos y tiempos de acuerdo con las necesidades identificadas.',
+  ],
+  [
+    '¿Qué permite la articulación con actores del territorio?',
+    [
+      'Eliminar programas.',
+      'Reducir acciones.',
+      'Integrar recursos y esfuerzos.',
+      'Trabajar de forma aislada.',
+    ],
+    2,
+    'Correcto. La articulación mejora la eficiencia y el impacto de las intervenciones.',
+  ],
+]
+
+const letras = ['a', 'b', 'c', 'd']
+const preguntas = bancoPreguntas.map((pregunta, indice) => ({
+  id: indice + 1,
+  texto: pregunta[0],
+  imagen: require(`@/assets/actividad/imagen${(indice % 4) + 1}.png`),
+  barajarRespuestas: true,
+  opciones: pregunta[1].map((texto, opcion) => ({
+    id: letras[opcion],
+    texto,
+    esCorrecta: opcion === pregunta[2],
+  })),
+  mensaje_correcto: pregunta[3],
+  mensaje_incorrecto:
+    'Revise nuevamente el contenido del componente formativo.',
+}))
+
 export default {
   name: 'ActividadDidactica',
-  components: {
-    Actividad,
-  },
+  components: { Actividad },
   data: () => ({
     cuestionario: {
-      tema: 'Microcontroladores y sensores',
+      tema: 'Fundamentos y planeación de la estrategia entorno hogar saludable',
       titulo: 'Cuestionario',
       introduccion:
-        '<b> Objetivo:</b> Evaluar la comprensión y el uso adecuado de las herramientas básicas en la ventana <em>Board</em> del <em>software</em> EAGLE.',
+        '<b>Objetivo:</b> evaluar la apropiación de los conceptos y procesos fundamentales de la estrategia de entorno hogar saludable, los determinantes sociales de la salud, las herramientas de caracterización e intervención y los principios del enfoque territorial e intersectorial.',
       barajarPreguntas: true,
       titulo_aprobado: '¡BUEN TRABAJO!',
       titulo_reprobado: 'VUELVA A INTENTARLO.',
-      preguntas: [
-        {
-          id: 1,
-          texto:
-            '¿Cuál es la función principal de la herramienta <em>Layer</em> en la ventana <em>Board</em>?',
-          imagen: require('@/assets/actividad/imagen1.png'),
-          barajarRespuestas: true,
-          opciones: [
-            {
-              id: 'a',
-              texto: 'tPlace',
-              esCorrecta: true,
-            },
-            {
-              id: 'b',
-              texto: 'bNames',
-              esCorrecta: false,
-            },
-            {
-              id: 'c',
-              texto: 'tStop',
-              esCorrecta: false,
-            },
-            {
-              id: 'd',
-              texto: 'bValues',
-              esCorrecta: false,
-            },
-          ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
-        },
-        {
-          id: 2,
-          texto:
-            '¿Qué herramienta permite agregar texto en la ventana <em>Board</em>?',
-          imagen: require('@/assets/actividad/imagen2.png'),
-          barajarRespuestas: true,
-          opciones: [
-            {
-              id: 'a',
-              texto: 'tPlace',
-              esCorrecta: true,
-            },
-            {
-              id: 'b',
-              texto: 'bNames',
-              esCorrecta: false,
-            },
-            {
-              id: 'c',
-              texto: 'tStop',
-              esCorrecta: false,
-            },
-            {
-              id: 'd',
-              texto: 'bValues',
-              esCorrecta: false,
-            },
-          ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
-        },
-        {
-          id: 3,
-          texto: '¿Para qué sirve la herramienta <em>Show</em> en EAGLE?',
-          imagen: require('@/assets/actividad/imagen3.png'),
-          barajarRespuestas: true,
-          opciones: [
-            {
-              id: 'a',
-              texto: 'tPlace',
-              esCorrecta: true,
-            },
-            {
-              id: 'b',
-              texto: 'bNames',
-              esCorrecta: false,
-            },
-            {
-              id: 'c',
-              texto: 'tStop',
-              esCorrecta: false,
-            },
-            {
-              id: 'd',
-              texto: 'bValues',
-              esCorrecta: false,
-            },
-          ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
-        },
-        {
-          id: 4,
-          texto:
-            '¿Qué botón se utiliza para cambiar entre las ventanas <em>Schematic</em> y <em>Board</em>?',
-          imagen: require('@/assets/actividad/imagen4.png'),
-          barajarRespuestas: true,
-          opciones: [
-            {
-              id: 'a',
-              texto: 'tPlace',
-              esCorrecta: true,
-            },
-            {
-              id: 'b',
-              texto: 'bNames',
-              esCorrecta: false,
-            },
-            {
-              id: 'c',
-              texto: 'tStop',
-              esCorrecta: false,
-            },
-            {
-              id: 'd',
-              texto: 'bValues',
-              esCorrecta: false,
-            },
-          ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
-        },
-        {
-          id: 5,
-          texto: '¿Qué permite hacer la herramienta <em>Route</em>?',
-          imagen: require('@/assets/actividad/imagen1.png'),
-          barajarRespuestas: true,
-          opciones: [
-            {
-              id: 'a',
-              texto: 'tPlace',
-              esCorrecta: true,
-            },
-            {
-              id: 'b',
-              texto: 'bNames',
-              esCorrecta: false,
-            },
-            {
-              id: 'c',
-              texto: 'tStop',
-              esCorrecta: false,
-            },
-            {
-              id: 'd',
-              texto: 'bValues',
-              esCorrecta: false,
-            },
-          ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
-        },
-        {
-          id: 6,
-          texto:
-            '¿Qué función tiene la herramienta <em>Auto</em> en la ventana <em>Board</em>?',
-          imagen: require('@/assets/actividad/imagen2.png'),
-          barajarRespuestas: true,
-          opciones: [
-            {
-              id: 'a',
-              texto: 'tPlace',
-              esCorrecta: true,
-            },
-            {
-              id: 'b',
-              texto: 'bNames',
-              esCorrecta: false,
-            },
-            {
-              id: 'c',
-              texto: 'tStop',
-              esCorrecta: false,
-            },
-            {
-              id: 'd',
-              texto: 'bValues',
-              esCorrecta: false,
-            },
-          ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
-        },
-        {
-          id: 7,
-          texto:
-            '¿Cuál es una recomendación al ubicar los componentes en la ventana <em>Board</em>?',
-          imagen: require('@/assets/actividad/imagen3.png'),
-          barajarRespuestas: true,
-          opciones: [
-            {
-              id: 'a',
-              texto: 'tPlace',
-              esCorrecta: true,
-            },
-            {
-              id: 'b',
-              texto: 'bNames',
-              esCorrecta: false,
-            },
-            {
-              id: 'c',
-              texto: 'tStop',
-              esCorrecta: false,
-            },
-            {
-              id: 'd',
-              texto: 'bValues',
-              esCorrecta: false,
-            },
-          ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
-        },
-        {
-          id: 8,
-          texto:
-            '¿Cuál de las siguientes capas se utiliza para añadir texto en el diseño?',
-          imagen: require('@/assets/actividad/imagen4.png'),
-          barajarRespuestas: true,
-          opciones: [
-            {
-              id: 'a',
-              texto: 'tPlace',
-              esCorrecta: true,
-            },
-            {
-              id: 'b',
-              texto: 'bNames',
-              esCorrecta: false,
-            },
-            {
-              id: 'c',
-              texto: 'tStop',
-              esCorrecta: false,
-            },
-            {
-              id: 'd',
-              texto: 'bValues',
-              esCorrecta: false,
-            },
-          ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
-        },
-        {
-          id: 9,
-          texto:
-            'La herramienta <em>Text</em> en la ventana <em>Board</em> solo permite cambiar el color de las capas.',
-          imagen: require('@/assets/actividad/imagen1.png'),
-          barajarRespuestas: true,
-          opciones: [
-            {
-              id: 'a',
-              texto: 'Verdadero',
-              esCorrecta: false,
-            },
-            {
-              id: 'b',
-              texto: 'Falso',
-              esCorrecta: true,
-            },
-          ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
-        },
-        {
-          id: 10,
-          texto:
-            'La herramienta <em>Layer</em> permite seleccionar y editar capas para definir márgenes, pistas y componentes.',
-          imagen: require('@/assets/actividad/imagen2.png'),
-          barajarRespuestas: true,
-          opciones: [
-            {
-              id: 'a',
-              texto: 'Verdadero',
-              esCorrecta: true,
-            },
-            {
-              id: 'b',
-              texto: 'Falso',
-              esCorrecta: false,
-            },
-          ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
-        },
-        {
-          id: 11,
-          texto:
-            'El botón "<em>BOARD</em>" en EAGLE solo sirve para borrar componentes en el diseño.',
-          imagen: require('@/assets/actividad/imagen3.png'),
-          barajarRespuestas: true,
-          opciones: [
-            {
-              id: 'a',
-              texto: 'Verdadero',
-              esCorrecta: false,
-            },
-            {
-              id: 'b',
-              texto: 'Falso',
-              esCorrecta: true,
-            },
-          ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
-        },
-        {
-          id: 12,
-          texto:
-            'La herramienta <em>Show</em> permite resaltar conexiones para facilitar la identificación de redes.',
-          imagen: require('@/assets/actividad/imagen4.png'),
-          barajarRespuestas: true,
-          opciones: [
-            {
-              id: 'a',
-              texto: 'Verdadero',
-              esCorrecta: true,
-            },
-            {
-              id: 'b',
-              texto: 'Falso',
-              esCorrecta: false,
-            },
-          ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
-        },
-        {
-          id: 13,
-          texto:
-            'La función <em>Auto</em> se utiliza para enrutado automático en la ventana <em>Board</em>.',
-          imagen: require('@/assets/actividad/imagen1.png'),
-          barajarRespuestas: true,
-          opciones: [
-            {
-              id: 'a',
-              texto: 'Verdadero',
-              esCorrecta: true,
-            },
-            {
-              id: 'b',
-              texto: 'Falso',
-              esCorrecta: false,
-            },
-          ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
-        },
-        {
-          id: 14,
-          texto:
-            'La herramienta <em>Route</em> en la ventana <em>Board</em> ajusta automáticamente todas las pistas del diseño.',
-          imagen: require('@/assets/actividad/imagen2.png'),
-          barajarRespuestas: true,
-          opciones: [
-            {
-              id: 'a',
-              texto: 'Verdadero',
-              esCorrecta: false,
-            },
-            {
-              id: 'b',
-              texto: 'Falso',
-              esCorrecta: true,
-            },
-          ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
-        },
-        {
-          id: 15,
-          texto:
-            'Es recomendable organizar los componentes en bloques funcionales como transformación y filtrado en la ventana <em>Board</em>.',
-          imagen: require('@/assets/actividad/imagen3.png'),
-          barajarRespuestas: true,
-          opciones: [
-            {
-              id: 'a',
-              texto: 'Verdadero',
-              esCorrecta: true,
-            },
-            {
-              id: 'b',
-              texto: 'Falso',
-              esCorrecta: false,
-            },
-          ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
-        },
-      ],
-      mensaje_final_aprobado: '¡Excelente! Ha superado la actividad.',
+      preguntas,
+      mensaje_final_aprobado:
+        'Felicitaciones. Se evidencia una comprensión adecuada de los conceptos y procesos relacionados con la estrategia de entorno hogar saludable, así como la capacidad para identificar determinantes sociales, analizar condiciones del entorno y reconocer la importancia de la promoción de la salud en el ámbito familiar.',
       mensaje_final_reprobado:
-        'Le recomendamos volver a revisar el componente formativo e intentar nuevamente la actividad didáctica.',
+        'No ha superado la actividad. Le recomendamos volver a revisar el componente formativo e intentar nuevamente la actividad didáctica.',
     },
   }),
 }
