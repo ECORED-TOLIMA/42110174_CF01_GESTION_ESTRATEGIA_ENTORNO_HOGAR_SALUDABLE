@@ -7,7 +7,7 @@
   &-2
     animation: float1 2.8s ease-in-out infinite alternate
     position: absolute
-    top: 51%
+    top: 60%
     right: 30%
 
 @keyframes float1
@@ -46,5 +46,233 @@
 figcaption
   font-weight: normal
 
-.bgprimario
+.tabs-a__tab
+  background-color: #FFEADE
+
+.tabs-c__tab
+  background-color: #FFEADE
+.tabs-c__tab--active
+  background-color: #FFF
+
+.tarjeta.tarjeta--azul.acordion__activo
+  background-color: #EAEDDF
+
+.tarjeta.tarjeta--azul
+  background-color: #FFEADE
+
+.tarjeta.color-acento-botones--borde
+  border: 3px solid #F8F9F4
+
+.slyder-a__bullets__item
+  background-color: #FFE3C2
+
+.slyder-a__bullets__item.slyder-a__bullets__item--active
+  background-color: #FF945D
+
+.slyder-a__btn--atrs
+  background-color: #FF945D
+
+.slyder-a__btn--sigt
+  background-color: #FF945D
+
+.bg1
   background-color: #FFF7ED
+
+.bg2
+  background-color: #EAEDDF
+
+.bg3
+  background-color: #FFE3C2
+
+.bg4
+  background-color: #E1C1B7
+
+.bg5
+  background-color: #F5EAE7
+
+.bg6
+  background-color: #FFEADE
+
+.bg7
+  background-color:#FFF7ED
+.bg8
+  background-color:#FFFFFF
+
+.tarjeta--boton.color-primario:active, .tarjeta--boton.color-primario:focus, .tarjeta--boton.color-primario:hover
+  background-color: #EAEDDF
+
+.linea-tiempo-d.color-acento-botones.especial
+  .linea-tiempo-d__item--selected
+    .linea-tiempo-d__item__content
+      background-color: #EAEDDF !important 
+    .tarjeta.tarjeta--gris
+      background-color: #FF945D
+      span
+        color: $black
+  .linea-tiempo-d__item--selected .linea-tiempo-d__item__content__title
+    span
+      color: #000 !important
+  .linea-tiempo-d__item__content.tarjeta.tarjeta--gris
+    background-color: #FFEADE
+.tarjeta.tarjeta--gris
+  background-color: #FFEADE
+.linea-tiempo-d__item__number
+  span
+    color: #000
+
+.tarjeta tarjeta--slyder
+  background-color: #E1C1B7
+
+tarjeta--boton
+  background-color: #EAEDDF
+
+
+.BG0111
+  background-image: url("../assets/curso/temas/fondos/imgfondoslayder.png")
+  background-repeat: no-repeat
+  background-position: center 100%
+  background-size: cover
+  margin-inline: -3.5rem !important
+  @media (max-width: $bp-max-sm)
+    margin-inline: -1.5rem !important
+
+.BG02
+  background-image: url("../assets/curso/temas/fondos/difuminado.png")
+  background-repeat: no-repeat
+  background-position: center 100%
+  margin-inline: -3.5rem !important
+  @media (max-width: $bp-max-sm)
+    margin-inline: -1.5rem !important
+
+.BG03
+  background-image: url("../assets/curso/temas/fondos/difuminado2.png")
+  background-repeat: no-repeat
+  background-position: center 100%
+  margin-inline: -3.5rem !important
+  @media (max-width: $bp-max-sm)
+    margin-inline: -1.5rem !important
+
+.BG04
+  background-image: url("../assets/curso/temas/fondos/imgfondoslayderb.png")
+  background-repeat: no-repeat
+  background-position: center 100%
+  margin-inline: -3.5rem !important
+  @media (max-width: $bp-max-sm)
+    margin-inline: -1.5rem !important
+.tabla-a
+  thead 
+    background-color: #361206
+    color: white !important
+    border-color:#361206
+  
+.tabla-a.color-acento-contenido thead
+  border-color:#361206
+
+.fa-chevron-left, .fa-chevron-right
+  color: #FF945D !important
+
+.BG01
+  background-image: url("../assets/curso/temas/fondos/imgfondoslayder.png")
+  background-size: cover
+  background-repeat: no-repeat
+  background-position: center bottom
+  margin-inline: -3rem !important
+  overflow: hidden
+  padding-top: 0 !important
+  padding-bottom: 0 !important
+
+  .BG01-row
+    max-width: 1140px
+    margin-left: auto !important
+    margin-right: auto !important
+    min-height: 330px
+    padding-top: 0 !important
+    padding-bottom: 0 !important
+
+  @media (max-width: $bp-max-sm)
+    margin-inline: -1.5rem !important
+
+.lista-ol li, .lista-ol--cuadro li, .lista-ul li, .lista-ul--separador li, .lista-ul--color li 
+  display: flex
+
+.acordion__accion__btn--b
+  border: 1px solid #FF945D
+  background-color: #FF945D
+
+///// utilidades --------------------------------------
+.img65
+  width: 65px  
+.img90
+  width: 90px  
+.img250
+  width: 250px  
+.brd--rad
+  border-radius: 20px
+.hr--line
+  margin: 1rem 0
+  width: 100%
+  height: 1px  
+  background-color: #B0C0D2
+.b--rad
+  border-radius: 0px 0px 20px 20px 
+.bg--gradientBlue        
+  background: linear-gradient(0deg, rgba(215,236,252,1) 0%, rgba(239,246,252,1) 100%)
+
+//// Tarjetas --------------------------------------
+.crd
+  &.brd--rad
+    border-radius: 20px 
+  &.crd--grayGrad
+    padding: 2rem
+    height: 100%
+    background-color: #FFEADE
+    border-radius: 15px    
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23)
+    &:hover      
+      background-color: #E1C1B7
+      .bottomCircle
+        &::before
+          background-color: #9C3413
+  &.crd--blue
+    background-color: #B1DBEA
+
+  &.crd--border
+    border: 4px solid $color-acento-botones
+    border-radius: 20px
+
+.bottomCircle
+  position: relative
+  & > *
+    position: relative
+  &::before
+    content: ""
+    position: absolute
+    top: 50%
+    left: 50%
+    transform: translate(-50%,-50%)
+    width: 115px
+    height: 115px
+    background-color: #FF945D
+    border-radius: 999px
+
+.avatar
+  position: absolute
+  bottom: 0
+  right: -4rem
+  z-index: 1
+  @media (max-width: 1000px)
+    display: none
+
+.img-infografica__item__dot:before, .img-infografica__item__dot:after, .img-infografica-b__item__dot:before, .img-infografica-b__item__dot:after
+  width: 150%
+  height: 150%
+
+.img-infografica.color-acento-botones .img-infografica__item__numero, .img-infografica-b.color-acento-botones .img-infografica__item__numero
+  font-size: 1.5em
+
+.img-infografica__item__numero, .img-infografica-b__item__numero
+  left: 73%
+  top: 80%
+
+.tarjeta-audio.color-acento-botones .tarjeta-audio__texto
+  color: black

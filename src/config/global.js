@@ -2,7 +2,7 @@ export default {
   global: {
     Name: 'Fundamentos y planeación de la estrategia entorno hogar saludable',
     Description:
-      'Este componente aborda los fundamentos y la planeación de la estrategia de entorno hogar saludable, incluyendo conceptos clave, análisis del territorio, determinantes sociales, enfoque territorial e intersectorial, y formulación de intervenciones.',
+      'Este componente aborda los fundamentos y la planeación de la estrategia de entorno hogar saludable, incluyendo conceptos clave, análisis del territorio, determinantes sociales, enfoque territorial e intersectorial, y formulación de intervenciones. Permite al aprendiz comprender y estructurar acciones orientadas a la promoción de la salud en el entorno familiar.',
     imagenBannerPrincipal: require('@/assets/curso/portada/banner-principal.png'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
     imagenesDecorativasBanner: [
@@ -345,7 +345,7 @@ export default {
       titulo: 'VALIDACIÓN RECURSO EDUCATIVO DIGITAL',
       autores: [
         {
-          nombre: 'Jorge Eduardo Rueda Peña  ',
+          nombre: 'Jorge Eduardo Rueda Peña',
           cargo: 'Evaluador de contenidos inclusivos y accesibles',
           centro: 'Centro de Comercio y Servicios - Regional Tolima',
         },

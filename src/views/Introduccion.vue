@@ -11,7 +11,7 @@
     .row.justify-content-center.align-items-center.mb-4
       .col-lg-9.order-2.order-lg-1
         p.mb-4 Este componente formativo desarrolla los fundamentos conceptuales y operativos necesarios para comprender las dinámicas del entorno familiar, los determinantes sociales de la salud y los procesos de articulación intersectorial en el territorio. A partir de estos elementos, se orienta la implementación de acciones en salud pública con un enfoque integral, que responde a las necesidades identificadas en los contextos locales.
-        .row.justify-content-center.align-items-center.tarjeta.bgprimario.p-4
+        .row.justify-content-center.align-items-center.tarjeta.bg1.p-4
           .col-lg-2.d-none.d-lg-block
             figure(data-aos="zoom-in")
               img(src="@/assets/curso/temas/intro/img1.svg", style="width: 110px", alt="alt")
@@ -21,7 +21,10 @@
         figure(data-aos="zoom-in")
           img(src="@/assets/curso/temas/intro/img2.png", alt="alt")
     p.mb-4 A lo largo de este proceso formativo, el aprendiz desarrolla capacidades para el análisis del territorio, la identificación de necesidades en salud y la formulación de planes de acción, en articulación con los procesos de la salud pública. De esta manera, se contribuye a la planeación de intervenciones pertinentes, basadas en evidencia y alineadas con las políticas públicas, favoreciendo un enfoque territorial, diferencial e intersectorial.
-
+    figure
+      .video
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+      figcaption Video: Leyenda del video
 </template>
 
 <script>
