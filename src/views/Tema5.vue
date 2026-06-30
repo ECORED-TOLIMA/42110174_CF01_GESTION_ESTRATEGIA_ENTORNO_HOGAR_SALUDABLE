@@ -181,10 +181,10 @@
           ImagenInfografica.color-acento-botones
             template(v-slot:imagen)
               figure
-                img(src='@/assets/curso/temas/tema5/img12.svg', alt='Figura 2. Proceso formativo para la participación social en salud. Pirámide que representa el proceso formativo para la participación social. Incluye cuatro niveles: información básica sobre derechos en salud, comprensión del sistema de salud, desarrollo de liderazgo comunitario e incidencia en decisiones públicas.')
+                img(src='@/assets/curso/temas/tema5/img12.svg', alt='La Figura 3 presenta cuatro dimensiones para identificar necesidades en el entorno hogar: condiciones del entorno hogar, salud y riesgo, acceso a servicios, y condiciones sociales y familiares. Cada dimensión agrupa tres situaciones frecuentes que orientan la caracterización de los hogares y la priorización de intervenciones en el territorio.')
         .d-block.d-lg-none.mb-4
           figure
-            img(src='@/assets/curso/temas/tema5/img12_1.svg', alt='Figura 2. Proceso formativo para la participación social en salud. Pirámide que representa el proceso formativo para la participación social. Incluye cuatro niveles: información básica sobre derechos en salud, comprensión del sistema de salud, desarrollo de liderazgo comunitario e incidencia en decisiones públicas.')
+            img(src='@/assets/curso/temas/tema5/img12_1.svg', alt='La Figura 3 presenta cuatro dimensiones para identificar necesidades en el entorno hogar: condiciones del entorno hogar, salud y riesgo, acceso a servicios, y condiciones sociales y familiares. Cada dimensión agrupa tres situaciones frecuentes que orientan la caracterización de los hogares y la priorización de intervenciones en el territorio. ')
     p.mb-4 El uso de esta clasificación permite identificar de manera integral las situaciones que afectan la salud de las familias, considerando tanto las condiciones del entorno físico como los aspectos relacionados con la salud, el acceso a servicios y las dinámicas sociales y familiares.
     .bloque-texto-g.color-primario.p-3.p-sm-4.p-md-5.mb-4
       .bloque-texto-g__img(

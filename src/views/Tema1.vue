@@ -249,10 +249,10 @@
           ImagenInfografica.color-acento-botones
             template(v-slot:imagen)
               figure
-                img(src='@/assets/curso/temas/tema1/img17.svg', alt='Figura 2. Proceso formativo para la participación social en salud. Pirámide que representa el proceso formativo para la participación social. Incluye cuatro niveles: información básica sobre derechos en salud, comprensión del sistema de salud, desarrollo de liderazgo comunitario e incidencia en decisiones públicas.')
+                img(src='@/assets/curso/temas/tema1/img17.svg', alt='Figura 1. Elementos de la estrategia entorno hogar saludable. Figura que presenta los elementos de la estrategia de entorno hogar saludable: enfoque integral, promoción y prevención, enfoque territorial, intersectorialidad, participación social, seguimiento y evaluación. La imagen permite comprender que estos elementos se articulan para orientar acciones de cuidado y bienestar familiar.')
         .d-block.d-lg-none
           figure
-            img(src='@/assets/curso/temas/tema1/img17_1.svg', alt='Figura 2. Proceso formativo para la participación social en salud. Pirámide que representa el proceso formativo para la participación social. Incluye cuatro niveles: información básica sobre derechos en salud, comprensión del sistema de salud, desarrollo de liderazgo comunitario e incidencia en decisiones públicas.')
+            img(src='@/assets/curso/temas/tema1/img17_1.svg', alt='Figura 1. Elementos de la estrategia entorno hogar saludable. Figura que presenta los elementos de la estrategia de entorno hogar saludable: enfoque integral, promoción y prevención, enfoque territorial, intersectorialidad, participación social, seguimiento y evaluación. La imagen permite comprender que estos elementos se articulan para orientar acciones de cuidado y bienestar familiar.')
     .row.justify-content-center.mb-4
       .col-lg-10
         .p-4.tarjeta.bg4

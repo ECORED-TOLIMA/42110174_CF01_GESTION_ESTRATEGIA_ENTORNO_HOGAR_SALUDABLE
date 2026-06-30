@@ -89,7 +89,7 @@
               figure
                 img(src='@/assets/curso/temas/tema2/img6.svg', alt='Texto que describa la imagen')
 
-          h3.text-center Condiciones de vivienda
+          h5.text-center Condiciones de vivienda
           p Una casa sin ventilación, con humedad o hacinamiento incrementa el riesgo de enfermedades respiratorias e infecciosas. Identificar estas condiciones durante la visita domiciliaria permite actuar sobre causas concretas y no solo sobre síntomas.
       .col-sm-6.col-lg-3.mb-4.mb-lg-0
         .tarjeta--boton.color-primario.bg6.p-4.h-100
@@ -98,7 +98,7 @@
               figure
                 img(src='@/assets/curso/temas/tema2/img7.svg', alt='Texto que describa la imagen')
 
-          h3.text-center Acceso a servicios básicos
+          h5.text-center Acceso a servicios básicos
           p La ausencia de agua potable, alcantarillado o recolección de residuos es un riesgo sanitario directo. Cuando el equipo detecta esta carencia, la canalización hacia la entidad territorial competente hace parte de la intervención en salud.
       .col-sm-6.col-lg-3.mb-4.mb-lg-0
         .tarjeta--boton.color-primario.bg6.p-4.h-100
@@ -107,7 +107,7 @@
               figure
                 img(src='@/assets/curso/temas/tema2/img8.svg', alt='Texto que describa la imagen')
 
-          h3.text-center Dinámicas familiares
+          h5.text-center Dinámicas familiares
           p La calidad de las relaciones al interior del hogar determina si la familia funciona como red protectora o como fuente de tensión. Esta dimensión se explora en la caracterización y orienta las acciones de acompañamiento familiar.
       .col-sm-6.col-lg-3.mb-4.mb-lg-0
         .tarjeta--boton.color-primario.bg6.p-4.h-100
@@ -116,7 +116,7 @@
               figure
                 img(src='@/assets/curso/temas/tema2/img9.svg', alt='Texto que describa la imagen')
 
-          h3.text-center Hábitos de vida
+          h5.text-center Hábitos de vida
           p Las prácticas cotidianas de higiene, alimentación y actividad física son modificables mediante educación para la salud. La estrategia no se limita a registrarlos, diseña acciones que promuevan cambios sostenibles en el hogar.
     .row.justify-content-center.mb-4
       .col-lg-10

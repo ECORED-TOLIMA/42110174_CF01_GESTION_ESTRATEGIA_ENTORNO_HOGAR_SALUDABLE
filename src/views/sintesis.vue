@@ -6,7 +6,7 @@
     .row.justify-content-center
       .col-lg-12.mb-5
         figure
-          img(src="@/assets/curso/sintesis.svg" alt="Mapa conceptual de la estrategia de entorno hogar saludable: articula fundamentos, marco conceptual y operativo, enfoque territorial e intersectorial, determinantes sociales, intervenciones, promoción de la salud y formulación del plan de acción.")
+          img(src="@/assets/curso/sintesis.svg" alt="El mapa conceptual titulado “Fundamentos y planeación de la estrategia entorno hogar saludable” organiza el tema central en seis ejes: fundamentos de la estrategia, marco conceptual y operativo, enfoque territorial e intersectorial, determinantes sociales, intervenciones en el entorno hogar, y promoción de la salud y plan de acción. Cada eje presenta sus subtemas clave y se conecta con el nodo central mediante un conector relacional que expresa la función que cumple dentro de la estrategia. El conjunto se orienta hacia el resultado de aprendizaje: reconocer y planear intervenciones con enfoque territorial en el entorno hogar colombiano.")
       .col-auto
         a.anexo.mb-5(:href="obtenerLink('/downloads/Sintesis.pdf')" target="_blank")
           .anexo__icono
