@@ -341,12 +341,11 @@
         .bg3.p-4
           .tarjeta.bg8.p-4
             TarjetaAudio.color-acento-botones.mb-3(
-              texto="Mom, can you come with me to the doctor's office?"
-              :audio="require('@/assets/componentes/audios/audio-ej.mp3')"
+              texto="El plan de acción: la herramienta que convierte el diagnóstico en cambios reales"
+              :audio="require('@/assets/curso/temas/tema6/podcast.mp3')"
               @audio-hover="mostrarIndicadorTarjetaAudio = false"
             )
             .indicador--click(v-if="mostrarIndicadorTarjetaAudio")
-            p.mb-0 Mamá, ¿puedes venir conmigo al consultorio del doctor?
     p.mb-4 El plan de acción organiza las actividades que se desarrollarán con las familias en el hogar, teniendo en cuenta sus necesidades, las condiciones del territorio y los recursos disponibles para la intervención. Su elaboración parte de la información recolectada durante la caracterización y el análisis del entorno hogar.
     p.mb-0 Contar con un plan estructurado permite al equipo de salud actuar de manera ordenada, hacer seguimiento a los compromisos acordados con cada familia y ajustar las actividades según los avances y cambios identificados en el hogar. De esta forma, las intervenciones responden de manera oportuna a las situaciones reales de cada familia en el territorio colombiano.
 

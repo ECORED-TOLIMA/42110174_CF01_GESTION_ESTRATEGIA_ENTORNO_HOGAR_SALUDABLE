@@ -342,7 +342,6 @@
             .col-lg-7.d-none.d-lg-block
               img(src='@/assets/curso/temas/tema2/img17.svg', alt='')
     p.mb-4 La articulación de estas fases permite estructurar la intervención de manera lógica y progresiva, garantizando que las acciones desarrolladas respondan a las necesidades identificadas en el territorio. Este proceso favorece la continuidad de las intervenciones y la adaptación de las estrategias según las condiciones del entorno.
-    p.mb-4 En la práctica, la articulación de las cinco fases se evidencia en situaciones concretas del territorio colombiano:
     .BG01.p-4.px-4.mb-4
       .row.justify-content-center.p-4
         .col-lg-4.d-none.d-lg-block

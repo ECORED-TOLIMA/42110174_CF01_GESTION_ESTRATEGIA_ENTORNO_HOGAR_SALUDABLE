@@ -372,6 +372,12 @@
                     p.mb-0.text-center #[b Del seguimiento a la evaluación]
               p.text-center.mb-0 Cuando el seguimiento de varios casos en un mismo sector revela que las canalizaciones no están siendo efectivas por barreras de acceso al transporte, el equipo reporta esta situación a la secretaría de salud para ajustar la respuesta institucional y mejorar los resultados en ese territorio.
      
+    .cajon.color-secundario.p-4.mb-4
+      p.mb-0 La aplicación de esta secuencia garantiza que ninguna situación identificada en el hogar quede sin respuesta y que cada acción se conecte con la siguiente de manera organizada, continua y verificable en el territorio.
+
+    .tarjeta.bg1.p-4
+      p.mb-0 Los procesos de intervención desarrollados en los temas anteriores culminan en este tema con dos componentes que consolidan la estrategia, la promoción de la salud, que fortalece las capacidades de las familias para cuidarse, y el plan de acción, que organiza en un instrumento concreto y verificable todo lo acordado con cada hogar en el territorio.
+
 </template>
 
 <script>

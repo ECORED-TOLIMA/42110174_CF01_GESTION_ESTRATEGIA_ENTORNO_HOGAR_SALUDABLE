@@ -23,8 +23,7 @@
     p.mb-4 A lo largo de este proceso formativo, el aprendiz desarrolla capacidades para el análisis del territorio, la identificación de necesidades en salud y la formulación de planes de acción, en articulación con los procesos de la salud pública. De esta manera, se contribuye a la planeación de intervenciones pertinentes, basadas en evidencia y alineadas con las políticas públicas, favoreciendo un enfoque territorial, diferencial e intersectorial.
     figure
       .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
-      figcaption Video: Leyenda del video
+        iframe(width="1331" height="749" src="https://www.youtube.com/embed/rKZcmjitTac" title="Fundamentos y planeación de la estrategia de entorno hogar saludable" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen)
 </template>
 
 <script>
