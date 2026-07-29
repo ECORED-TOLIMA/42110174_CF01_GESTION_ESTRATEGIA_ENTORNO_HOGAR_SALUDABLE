@@ -370,7 +370,7 @@
       .col-md-6.col-xl.mb-4.mb-xl-0
         .tarjeta-numerada.color-secundario.p-5.h-100
           .tarjeta-numerada__numero
-            .h2 3
+            .h2 4
           p.text-center 
             b Espacios comunitarios y redes sociales
           p.text-center Facilitan la participación, el encuentro y la coordinación de apoyos entre familias, organizaciones y comunidad.
