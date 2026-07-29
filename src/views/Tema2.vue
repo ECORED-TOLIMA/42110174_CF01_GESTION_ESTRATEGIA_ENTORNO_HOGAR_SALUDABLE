@@ -322,11 +322,11 @@
                 li 
                   .lista-ol--cuadro__vineta
                     span 1
-                  | Identificación de necesidades.
+                  | Identificación de necesidades
                 li 
                   .lista-ol--cuadro__vineta
                     span 2
-                  | Planeación de acciones.
+                  | Planeación de acciones
                 li 
                   .lista-ol--cuadro__vineta
                     span 3
@@ -334,7 +334,7 @@
                 li 
                   .lista-ol--cuadro__vineta
                     span 4
-                  | Seguimiento.
+                  | Seguimiento
                 li 
                   .lista-ol--cuadro__vineta
                     span 5
