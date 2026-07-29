@@ -98,7 +98,7 @@
     .row.justify-content-center.mb-4
       .col-10.col-md-6.col-lg-3.mb-4.mb-md-0(data-aos="fade-right")
         .tarjeta-avatar
-          img(src='@/assets/curso/temas/tema5/img6.svg' alt='AvatarTop')
+          img(src='@/assets/curso/temas/tema5/img6.svg' alt="")
           .tarjeta.color-primario.shadow
             .p-4
               .row.justify-content-center.mb-3
@@ -108,7 +108,7 @@
               p.text-center.mb-0 Análisis de las condiciones sociales, económicas y culturales que inciden en la salud de la población.
       .col-10.col-md-6.col-lg-3.mb-4.mb-md-0(data-aos="fade-right")
         .tarjeta-avatar
-          img(src='@/assets/curso/temas/tema5/img7.svg' alt='AvatarTop')
+          img(src='@/assets/curso/temas/tema5/img7.svg' alt="")
           .tarjeta.color-primario.shadow
             .p-4
               .row.justify-content-center.mb-3
@@ -118,7 +118,7 @@
               p.text-center.mb-0 Identificación de instituciones, organizaciones comunitarias y redes de apoyo.
       .col-10.col-md-6.col-lg-3.mb-4.mb-md-0(data-aos="fade-right")
         .tarjeta-avatar
-          img(src='@/assets/curso/temas/tema5/img8.svg' alt='AvatarTop')
+          img(src='@/assets/curso/temas/tema5/img8.svg' alt="")
           .tarjeta.color-primario.shadow
             .p-4
               .row.justify-content-center.mb-3
@@ -128,7 +128,7 @@
               p.text-center.mb-0 Reconocimiento de capacidades institucionales, talento humano y recursos materiales.
       .col-10.col-md-6.col-lg-3.mb-4.mb-md-0(data-aos="fade-right")
         .tarjeta-avatar
-          img(src='@/assets/curso/temas/tema5/img9.svg' alt='AvatarTop')
+          img(src='@/assets/curso/temas/tema5/img9.svg' alt="")
           .tarjeta.color-primario.shadow
             .p-4
               .row.justify-content-center.mb-3
@@ -155,7 +155,7 @@
               p Coordinación de acciones entre diferentes sectores para abordar de manera integral los determinantes sociales de la salud que afectan a las familias. Ejemplo: cuando la caracterización de una vereda evidencia problemas de agua contaminada, el equipo coordina con la alcaldía, la empresa de acueducto y la secretaría de salud para intervenir simultáneamente la causa del problema y educar a las familias sobre el tratamiento casero del agua.
         .p-4.bg1
           p.mb-0 La comprensión integrada de estos cuatro elementos convierte la planeación territorial en una herramienta de gestión que garantiza intervenciones organizadas, viables y coherentes con las dinámicas reales de cada territorio colombiano.
-    p.mb-0 La planeación territorial define el escenario y los recursos con los que se interviene. El paso siguiente consiste en reconocer con precisión qué situaciones de cada hogar requieren atención, la identificación de necesidades convierte la información del territorio en decisiones concretas de intervención.    
+    p.mb-0 La planeación territorial define el escenario y los recursos con los que se interviene. El paso siguiente consiste en reconocer con precisión qué situaciones de cada hogar requieren atención; la identificación de necesidades convierte la información del territorio en decisiones concretas de intervención.    
     Separador
     #t_5_2.titulo-segundo.color-acento-contenido(data-aos="fade-left")
       h2 5.2 Identificación de necesidades
@@ -184,7 +184,7 @@
                 img(src='@/assets/curso/temas/tema5/img12.svg', alt='La Figura 3 presenta cuatro dimensiones para identificar necesidades en el entorno hogar: condiciones del entorno hogar, salud y riesgo, acceso a servicios, y condiciones sociales y familiares. Cada dimensión agrupa tres situaciones frecuentes que orientan la caracterización de los hogares y la priorización de intervenciones en el territorio.')
         .d-block.d-lg-none.mb-4
           figure
-            img(src='@/assets/curso/temas/tema5/img12_1.svg', alt='La Figura 3 presenta cuatro dimensiones para identificar necesidades en el entorno hogar: condiciones del entorno hogar, salud y riesgo, acceso a servicios, y condiciones sociales y familiares. Cada dimensión agrupa tres situaciones frecuentes que orientan la caracterización de los hogares y la priorización de intervenciones en el territorio. ')
+            img(src='@/assets/curso/temas/tema5/img12_1.svg', alt='La Figura 3 presenta cuatro dimensiones para identificar necesidades en el entorno hogar: condiciones del entorno hogar, salud y riesgo, acceso a servicios, y condiciones sociales y familiares. Cada dimensión agrupa tres situaciones frecuentes que orientan la caracterización de los hogares y la priorización de intervenciones en el territorio.')
     p.mb-4 El uso de esta clasificación permite identificar de manera integral las situaciones que afectan la salud de las familias, considerando tanto las condiciones del entorno físico como los aspectos relacionados con la salud, el acceso a servicios y las dinámicas sociales y familiares.
     .bloque-texto-g.color-primario.p-3.p-sm-4.p-md-5.mb-4
       .bloque-texto-g__img(
@@ -200,32 +200,32 @@
           .crd.crd--grayGrad(data-aos="flip-left")
             .bottomCircle.mb-5
               figure
-                img(src="@/assets/curso/temas/tema5/img14.svg", alt="alt").img90.m-auto
+                img(src="@/assets/curso/temas/tema5/img14.svg", alt="").img90.m-auto
             h4.text-center Limitaciones en el acceso a servicios de salud
             p.text-center.mb-0 Cuando una familia no conoce cómo afiliarse al sistema de salud o tiene dificultades para llegar al puesto de salud más cercano, el equipo activa la orientación sobre rutas de atención y gestiona con la entidad territorial la canalización oportuna al servicio que corresponde.
         .col-lg-4.mb-4.mb-lg-0
           .crd.crd--grayGrad(data-aos="flip-left")
             .bottomCircle.mb-5
               figure
-                img(src="@/assets/curso/temas/tema5/img15.svg", alt="alt").img90.m-auto
+                img(src="@/assets/curso/temas/tema5/img15.svg", alt="").img90.m-auto
             h4.text-center Prácticas inadecuadas de cuidado en el hogar
             p.text-center.mb-0 Cuando la caracterización evidencia que una familia no lava los alimentos antes de consumirlos o no realiza el lavado de manos en los momentos clave, el equipo desarrolla una actividad educativa práctica durante la visita, acordando compromisos concretos y verificables con los integrantes del hogar. 
         .col-lg-4.mb-4.mb-lg-0
           .crd.crd--grayGrad(data-aos="flip-left")
             .bottomCircle.mb-5
               figure
-                img(src="@/assets/curso/temas/tema5/img16.svg", alt="alt").img90.m-auto
+                img(src="@/assets/curso/temas/tema5/img16.svg", alt="").img90.m-auto
             h4.text-center Combinación de necesidades
             p.text-center.mb-0 Cuando en un mismo hogar coexisten limitaciones de acceso a servicios y prácticas inadecuadas de cuidado, la intervención integra simultáneamente la educación en salud, la canalización hacia los servicios correspondientes y el acompañamiento institucional para garantizar una respuesta completa a las necesidades identificadas.
 
-    p.mb-4 La articulación entre el diagnóstico de necesidades y las acciones de respuesta demuestra que la intervención en el entorno hogar no improvisa, cada acción educativa, cada canalización y cada gestión institucional responde a una situación concreta identificada en la caracterización del hogar.
+    p.mb-4 La articulación entre el diagnóstico de necesidades y las acciones de respuesta demuestra que la intervención en el entorno hogar no improvisa; cada acción educativa, cada canalización y cada gestión institucional responde a una situación concreta identificada en la caracterización del hogar.
     p.mb-0 A partir de este proceso, se establecen las bases para la definición de intervenciones poblacionales y colectivas, las cuales permiten dar respuesta a las necesidades identificadas en el entorno hogar.
     Separador
     #t_5_3.titulo-segundo.color-acento-contenido(data-aos="fade-left")
       h2 5.3 Intervenciones poblacionales y colectivas
     .row.justify-content-center.mb-4
       .col-lg-8.order-2.order-lg-1
-        p.mb-4 Las intervenciones poblacionales y colectivas representan el nivel de mayor alcance dentro de la estrategia porque actúan sobre condiciones que comparten muchas familias y que ningún hogar puede transformar por sí solo. El trabajo domiciliario y el trabajo comunitario no son opciones separadas sino componentes que se complementan y se fortalecen mutuamente dentro de una misma respuesta en salud.
+        p.mb-4 Las intervenciones poblacionales y colectivas representan el nivel de mayor alcance dentro de la estrategia porque actúan sobre condiciones que comparten muchas familias y que ningún hogar puede transformar por sí solo. El trabajo domiciliario y el trabajo comunitario no son opciones separadas, sino componentes que se complementan y se fortalecen mutuamente dentro de una misma respuesta en salud.
         .p-4.tarjeta.bg2
           p.mb-0 En el contexto colombiano, este tipo de intervenciones cobra especial relevancia en territorios donde las condiciones de salud de las familias están determinadas por factores que superan el ámbito doméstico, como la falta de servicios públicos en un asentamiento, la contaminación de una fuente de agua compartida o el limitado acceso a programas de promoción y prevención en zonas rurales dispersas. Actuar de manera colectiva en estos escenarios multiplica el impacto de cada acción realizada con las familias.
       .col-lg-4.col-8.mb-4.mb-lg-0.order-1.order-lg-2
@@ -259,8 +259,8 @@
                 li 
                   i.fas.fa-certificate
                   | Abordar problemáticas comunes del territorio.
-    p.mb-4 Con el fin de comprender de manera integral el alcance de las intervenciones en el entorno hogar saludable, es necesario diferenciar los niveles de intervención que se desarrollan desde la Atención primaria en salud. En este sentido, las acciones pueden orientarse a nivel individual, familiar o colectivo, cada una con propósitos, alcances y estrategias específicas. A continuación, se presenta una tabla comparativa que permite identificar sus características y facilitar la articulación de estas intervenciones en el territorio.
-    .BG02
+    p.mb-4 Con el fin de comprender de manera integral el alcance de las intervenciones en el entorno hogar saludable, es necesario diferenciar los niveles de intervención que se desarrollan desde la atención primaria en salud. En este sentido, las acciones pueden orientarse a nivel individual, familiar o colectivo, cada una con propósitos, alcances y estrategias específicas. A continuación, se presenta una tabla comparativa que permite identificar sus características y facilitar la articulación de estas intervenciones en el territorio.
+    .BG02.px-4
       .row.justify-content-center.align-items-center.mb-3
         .col-lg-10
           .titulo-sexto.color-acento-contenido
@@ -343,7 +343,7 @@
     .row.justify-content-center.mb-4
       .col-10.col-md-6.col-lg-4.mb-4.mb-md-0(data-aos="fade-right")
         .tarjeta-avatar
-          img(src='@/assets/curso/temas/tema5/img20.svg' alt='AvatarTop')
+          img(src='@/assets/curso/temas/tema5/img20.svg' alt="")
           .tarjeta.color-primario.shadow
             .p-4
               .row.justify-content-center.mb-3
@@ -353,7 +353,7 @@
               p.text-center.mb-0 Cuando durante una visita domiciliaria en una vereda del Tolima se detecta a un adulto mayor con signos de hipertensión sin controlar, el equipo activa de inmediato la canalización hacia el puesto de salud más cercano para garantizar su valoración oportuna. 
       .col-10.col-md-6.col-lg-4.mb-4.mb-md-0(data-aos="fade-right")
         .tarjeta-avatar
-          img(src='@/assets/curso/temas/tema5/img21.svg' alt='AvatarTop')
+          img(src='@/assets/curso/temas/tema5/img21.svg' alt="")
           .tarjeta.color-primario.shadow
             .p-4
               .row.justify-content-center.mb-3
@@ -363,7 +363,7 @@
               p.text-center.mb-0 Una vez la familia recibe la atención en el servicio de salud, el equipo verifica en la siguiente visita que la persona asistió a la cita, que comprende el tratamiento indicado y que las condiciones del hogar no representan un riesgo adicional para su recuperación.
       .col-10.col-md-6.col-lg-4.mb-4.mb-md-0(data-aos="fade-right")
         .tarjeta-avatar
-          img(src='@/assets/curso/temas/tema5/img21.svg' alt='AvatarTop')
+          img(src='@/assets/curso/temas/tema5/img21.svg' alt="")
           .tarjeta.color-primario.shadow
             .p-4
               .row.justify-content-center.mb-3
@@ -376,7 +376,7 @@
       p.mb-0 La aplicación de esta secuencia garantiza que ninguna situación identificada en el hogar quede sin respuesta y que cada acción se conecte con la siguiente de manera organizada, continua y verificable en el territorio.
 
     .tarjeta.bg1.p-4
-      p.mb-0 Los procesos de intervención desarrollados en los temas anteriores culminan en este tema con dos componentes que consolidan la estrategia, la promoción de la salud, que fortalece las capacidades de las familias para cuidarse, y el plan de acción, que organiza en un instrumento concreto y verificable todo lo acordado con cada hogar en el territorio.
+      p.mb-0 Los procesos de intervención desarrollados en los temas anteriores culminan en este tema con dos componentes que consolidan la estrategia: la promoción de la salud, que fortalece las capacidades de las familias para cuidarse, y el plan de acción, que organiza en un instrumento concreto y verificable todo lo acordado con cada hogar en el territorio.
 
 </template>
 

@@ -19,7 +19,7 @@ const bancoPreguntas = [
       'Un programa institucional de salud.',
     ],
     2,
-    'Correcto. El entorno hogar saludable integra condiciones físicas, sociales y comportamentales que influyen en el bienestar, no solo aspectos estructurales.',
+    'El entorno hogar saludable integra condiciones físicas, sociales y comportamentales que influyen en el bienestar, no solo aspectos estructurales.',
   ],
   [
     '¿Cuál es el enfoque principal de la Atención Primaria en Salud (APS)?',
@@ -30,7 +30,7 @@ const bancoPreguntas = [
       'Atención hospitalaria.',
     ],
     1,
-    'Correcto. La APS prioriza la promoción de la salud y la prevención de la enfermedad como base del sistema de salud.',
+    'La APS prioriza la promoción de la salud y la prevención de la enfermedad como base del sistema de salud.',
   ],
   [
     '¿Qué permite el análisis del territorio?',
@@ -41,7 +41,7 @@ const bancoPreguntas = [
       'Comprender condiciones y necesidades de la población.',
     ],
     3,
-    'Correcto. El análisis territorial permite entender el contexto y orientar intervenciones pertinentes.',
+    'El análisis territorial permite entender el contexto y orientar intervenciones pertinentes.',
   ],
   [
     '¿Cuál es el propósito de la caracterización?',
@@ -52,7 +52,7 @@ const bancoPreguntas = [
       'Evaluar infraestructura hospitalaria.',
     ],
     1,
-    'Correcto. La caracterización permite recolectar información clave para la toma de decisiones.',
+    'La caracterización permite recolectar información clave para la toma de decisiones.',
   ],
   [
     '¿Qué elemento es clave en la priorización de intervenciones?',
@@ -63,7 +63,7 @@ const bancoPreguntas = [
       'Opinión del usuario.',
     ],
     0,
-    'Correcto. La priorización se basa en criterios técnicos como magnitud, gravedad e impacto.',
+    'La priorización se basa en criterios técnicos como magnitud, gravedad e impacto.',
   ],
   [
     '¿Qué caracteriza el enfoque territorial?',
@@ -74,7 +74,7 @@ const bancoPreguntas = [
       'Ignorar las condiciones sociales.',
     ],
     1,
-    'Correcto. El enfoque territorial adapta las acciones según las características del contexto.',
+    'El enfoque territorial adapta las acciones según las características del contexto.',
   ],
   [
     '¿Qué es la articulación intersectorial?',
@@ -85,7 +85,7 @@ const bancoPreguntas = [
       'Aplicación de normas.',
     ],
     2,
-    'Correcto. Permite intervenir los determinantes sociales desde múltiples sectores.',
+    'Permite intervenir los determinantes sociales desde múltiples sectores.',
   ],
   [
     '¿Qué son los determinantes sociales de la salud?',
@@ -96,7 +96,7 @@ const bancoPreguntas = [
       'Protocolos médicos.',
     ],
     0,
-    'Correcto. Son factores sociales, económicos y ambientales que afectan la salud.',
+    'Son factores sociales, económicos y ambientales que afectan la salud.',
   ],
   [
     '¿Cuál es un determinante material?',
@@ -107,7 +107,7 @@ const bancoPreguntas = [
       'Ingresos económicos.',
     ],
     1,
-    'Correcto. Los determinantes materiales incluyen condiciones físicas como la vivienda.',
+    'Los determinantes materiales incluyen condiciones físicas como la vivienda.',
   ],
   [
     '¿Qué son factores conductuales?',
@@ -118,7 +118,7 @@ const bancoPreguntas = [
       'Factores económicos.',
     ],
     1,
-    'Correcto. Son prácticas como la alimentación o la actividad física.',
+    'Son prácticas como la alimentación o la actividad física.',
   ],
   [
     '¿Cuál es un factor protector?',
@@ -129,7 +129,7 @@ const bancoPreguntas = [
       'Redes de apoyo.',
     ],
     3,
-    'Correcto. Las redes de apoyo fortalecen el bienestar y reducen riesgos.',
+    'Las redes de apoyo fortalecen el bienestar y reducen riesgos.',
   ],
   [
     '¿Qué permite la cohesión social?',
@@ -140,7 +140,7 @@ const bancoPreguntas = [
       'Mejorar las relaciones y el bienestar.',
     ],
     3,
-    'Correcto. La cohesión social favorece la convivencia y la salud.',
+    'La cohesión social favorece la convivencia y la salud.',
   ],
   [
     '¿Qué es un factor de riesgo?',
@@ -151,7 +151,7 @@ const bancoPreguntas = [
       'Una actividad preventiva.',
     ],
     1,
-    'Correcto. Son condiciones que pueden afectar negativamente la salud.',
+    'Son condiciones que pueden afectar negativamente la salud.',
   ],
   [
     '¿Qué evalúa la calidad de la vivienda?',
@@ -162,7 +162,7 @@ const bancoPreguntas = [
       'Actividad laboral.',
     ],
     2,
-    'Correcto. Incluye ventilación, higiene y servicios básicos.',
+    'Incluye ventilación, higiene y servicios básicos.',
   ],
   [
     '¿Qué incluye el entorno social?',
@@ -173,7 +173,7 @@ const bancoPreguntas = [
       'Medicamentos.',
     ],
     1,
-    'Correcto. El entorno social integra relaciones y condiciones del entorno cercano.',
+    'El entorno social integra relaciones y condiciones del entorno cercano.',
   ],
   [
     '¿Cuál es el objetivo de la promoción de la salud?',
@@ -184,7 +184,7 @@ const bancoPreguntas = [
       'Diagnosticar enfermedades.',
     ],
     0,
-    'Correcto. Busca fortalecer capacidades para mejorar la salud.',
+    'Busca fortalecer capacidades para mejorar la salud.',
   ],
   [
     '¿Qué permite la educación en salud?',
@@ -195,7 +195,7 @@ const bancoPreguntas = [
       'Evaluar hospitales.',
     ],
     2,
-    'Correcto. Promueve cambios en hábitos y comportamientos.',
+    'Promueve cambios en hábitos y comportamientos.',
   ],
   [
     '¿Qué implica el acceso a servicios de salud?',
@@ -206,7 +206,7 @@ const bancoPreguntas = [
       'Medicamentos gratuitos.',
     ],
     1,
-    'Correcto. Incluye la disponibilidad y el uso efectivo de los servicios.',
+    'Incluye la disponibilidad y el uso efectivo de los servicios.',
   ],
   [
     '¿Para qué sirve el plan de acción?',
@@ -217,7 +217,7 @@ const bancoPreguntas = [
       'Diagnosticar enfermedades.',
     ],
     2,
-    'Correcto. Permite organizar actividades, responsables, recursos y tiempos de acuerdo con las necesidades identificadas.',
+    'Permite organizar actividades, responsables, recursos y tiempos de acuerdo con las necesidades identificadas.',
   ],
   [
     '¿Qué permite la articulación con actores del territorio?',
@@ -228,7 +228,7 @@ const bancoPreguntas = [
       'Trabajar de forma aislada.',
     ],
     2,
-    'Correcto. La articulación mejora la eficiencia y el impacto de las intervenciones.',
+    'La articulación mejora la eficiencia y el impacto de las intervenciones.',
   ],
 ]
 

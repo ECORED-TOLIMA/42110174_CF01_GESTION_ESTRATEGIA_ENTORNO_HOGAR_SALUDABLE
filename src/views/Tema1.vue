@@ -56,7 +56,7 @@
     .row.justify-content-center.mb-4
       .col-10.col-md-6.col-lg-4.mb-4.mb-md-0(data-aos="fade-right")
         .tarjeta-avatar
-          img(src='@/assets/curso/temas/tema1/img6.svg' alt='AvatarTop')
+          img(src='@/assets/curso/temas/tema1/img6.svg' alt="")
           .tarjeta.color-primario
             .p-4
               .row.justify-content-center.mb-3
@@ -66,7 +66,7 @@
               p.text-center.mb-0 Territorios con población dispersa, actividades agropecuarias y acceso variable a servicios básicos e institucionales.
       .col-10.col-md-6.col-lg-4.mb-4.mb-md-0(data-aos="fade-left")
         .tarjeta-avatar
-          img(src='@/assets/curso/temas/tema1/img7.svg' alt='AvatarTop')
+          img(src='@/assets/curso/temas/tema1/img7.svg' alt="")
           .tarjeta.color-primario
             .p-4
               .row.justify-content-center.mb-3
@@ -76,7 +76,7 @@
               p.text-center.mb-0 Espacios con mayor concentración poblacional, oferta de servicios, movilidad constante y diversos riesgos ambientales o sociales.
       .col-10.col-md-6.col-lg-4.mb-4.mb-md-0(data-aos="fade-left")
         .tarjeta-avatar
-          img(src='@/assets/curso/temas/tema1/img8.svg' alt='AvatarTop')
+          img(src='@/assets/curso/temas/tema1/img8.svg' alt="")
           .tarjeta.color-primario
             .p-4
               .row.justify-content-center.mb-3
@@ -146,7 +146,7 @@
                   td Roles, relaciones, apoyo, dinámicas familiares.
                   td Puede actuar como factor protector o de riesgo.
                 tr
-                  th Entorno hogar saludable
+                  th Entorno de hogar saludable
                   td Espacio donde las condiciones físicas, sociales y comportamentales favorecen la salud.
                   td Prácticas saludables, condiciones adecuadas, entorno protector.
                   td Promueve bienestar y previene enfermedades.
@@ -213,11 +213,11 @@
           p(numero="1" titulo="Analizar las condiciones del entorno hogar")
             | Permite reconocer las características físicas, sociales y familiares que influyen en el bienestar de las personas. Este análisis considera aspectos como vivienda, acceso a servicios básicos, prácticas de higiene, relaciones familiares y riesgos del territorio. Por ejemplo, en una comunidad rural, identificar viviendas con humedad, falta de ventilación o almacenamiento inadecuado de agua permite priorizar acciones educativas y preventivas ajustadas a la realidad local.
           p(numero="2" titulo="Fortalecer capacidades familiares para el autocuidado")
-            | Busca que las familias reconozcan prácticas cotidianas que favorecen su bienestar y reduzcan situaciones de riesgo en el hogar. Incluye acciones relacionadas con higiene, alimentación, actividad física, cuidado de personas mayores, atención a niñas y niños, y uso adecuado de los servicios disponibles. Por ejemplo, una familia que aprende a tratar el agua antes de consumirla puede prevenir enfermedades gastrointestinales y mejorar sus prácticas de cuidado diario.
+            | Busca que las familias reconozcan prácticas cotidianas que favorecen su bienestar y reduzcan situaciones de riesgo en el hogar. Incluye acciones relacionadas con higiene, alimentación, actividad física, cuidado de personas mayores, atención a niñas y niños y uso adecuado de los servicios disponibles. Por ejemplo, una familia que aprende a tratar el agua antes de consumirla puede prevenir enfermedades gastrointestinales y mejorar sus prácticas de cuidado diario.
           p(numero="3" titulo="Promover el acceso y uso adecuado de los servicios")
             | Orienta a las familias para que conozcan las rutas de atención, programas, jornadas y servicios disponibles en su territorio. Este objetivo facilita que las personas acudan oportunamente a controles, vacunación, orientación familiar o atención preventiva. Por ejemplo, una familia informada sobre las jornadas de vacunación puede completar los esquemas de niñas y niños, reduciendo riesgos evitables y fortaleciendo la protección familiar.
           p(numero="4" titulo="Formular planes de acción según el contexto territorial")
-            | Permite organizar actividades, responsables, recursos y tiempos de acuerdo con las necesidades identificadas en cada comunidad. Este objetivo evita aplicar acciones generales sin considerar las particularidades del territorio. Por ejemplo, en una zona ribereña, el plan puede priorizar manejo seguro del agua, prevención de enfermedades transmitidas por vectores y preparación familiar ante temporadas de lluvia o inundación.
+            | Permite organizar actividades, responsables, recursos y tiempos de acuerdo con las necesidades identificadas en cada comunidad. Este objetivo evita aplicar acciones generales sin considerar las particularidades del territorio. Por ejemplo, en una zona ribereña, el plan puede priorizar el manejo seguro del agua, la prevención de enfermedades transmitidas por vectores y la preparación familiar ante temporadas de lluvia o inundación.
           p(numero="5" titulo="Gestionar acciones intersectoriales en el territorio")
             | Promueve la coordinación entre salud, educación, ambiente, servicios públicos, líderes comunitarios e instituciones locales para responder a problemas que no dependen de un solo sector. Por ejemplo, si una comunidad presenta acumulación de residuos, la intervención puede requerir educación familiar, apoyo de la entidad territorial, jornadas de limpieza y articulación con servicios de recolección.
           p(numero="6" titulo="Realizar seguimiento y evaluación de las intervenciones")
@@ -263,7 +263,7 @@
         .row
           .col-md-5.mb-4.mb-lg-0
             figure
-              img(src='@/assets/curso/temas/tema1/img18.png', alt='Texto que describa la imagen')
+              img(src='@/assets/curso/temas/tema1/img18.png', alt="")
           .col-md-7.mb-4.mb-md-0
             p Fortalecen los conocimientos, actitudes y prácticas de cuidado en las familias mediante orientaciones claras, contextualizadas y aplicables en la vida diaria. Estos procesos permiten comprender los riesgos presentes en el hogar, reconocer hábitos protectores y tomar decisiones informadas para mejorar las condiciones del entorno. También favorecen la participación de niñas, niños, personas mayores y cuidadores en acciones sencillas de prevención.
             p #[b Ejemplo]: una charla familiar sobre lavado de manos ayuda a prevenir enfermedades y mejorar hábitos cotidianos.
@@ -271,7 +271,7 @@
         .row
           .col-md-5.mb-4.mb-lg-0
             figure
-              img(src='@/assets/curso/temas/tema1/img19.png', alt='Texto que describa la imagen')
+              img(src='@/assets/curso/temas/tema1/img19.png', alt="")
           .col-md-7.mb-4.mb-md-0
             p Permite reconocer las necesidades del hogar, orientar decisiones y promover cambios progresivos en las prácticas de cuidado. Este proceso se basa en el diálogo, la observación del entorno y la identificación conjunta de factores protectores o situaciones de riesgo. Además, facilita que las familias participen en la definición de compromisos posibles, de acuerdo con sus condiciones sociales, culturales y territoriales.
             p #[b Ejemplo]: una visita domiciliaria puede ayudar a reconocer riesgos, acordar compromisos y fortalecer prácticas de autocuidado.
@@ -279,7 +279,7 @@
         .row
           .col-md-5.mb-4.mb-lg-0
             figure
-              img(src='@/assets/curso/temas/tema1/img20.png', alt='Texto que describa la imagen')
+              img(src='@/assets/curso/temas/tema1/img20.png', alt="")
           .col-md-7.mb-4.mb-md-0
             p Facilita la coordinación entre entidades, comunidad y actores territoriales para responder de manera integral a las necesidades identificadas en el entorno hogar. Esta articulación permite unir recursos, conocimientos y responsabilidades de diferentes sectores, como salud, educación, ambiente, servicios públicos y organizaciones comunitarias. Su propósito es evitar acciones aisladas y promover respuestas más pertinentes, sostenibles y acordes con la realidad local.
             p #[b Ejemplo]: una acción conjunta entre salud, ambiente y líderes comunitarios puede mejorar el manejo de residuos.
@@ -309,36 +309,36 @@
       .row
         .col-lg-4.d-none.d-lg-block
           figure(data-aos="zoom-in")
-            img(src="@/assets/curso/temas/tema1/img24.png", alt="alt")
+            img(src="@/assets/curso/temas/tema1/img24.png", alt="")
         .col-lg-8.p-4
           p En este contexto, se destacan grupos poblacionales que requieren especial atención en el entorno hogar:
           SlyderF.custom.mb-5(columnas="col-lg-6 col-xl-4")
             .tarjeta.bg4.tarjeta--slyder.p-4
               .row.justify-content-center.mb-3
                 .col-8
-                  img(src="@/assets/curso/temas/tema1/img25.svg", alt="alt").img100.m-auto
+                  img(src="@/assets/curso/temas/tema1/img25.svg", alt="").img100.m-auto
               p.mb-5.text-center.mb-0 Niños, niñas y adolecentes.
               br
             .tarjeta.bg4.tarjeta--slyder.p-4
               .row.justify-content-center.mb-3
                 .col-8
-                  img(src="@/assets/curso/temas/tema1/img26.svg", alt="alt").img100.m-auto
+                  img(src="@/assets/curso/temas/tema1/img26.svg", alt="").img100.m-auto
               p.text-center.mb-0 Mujeres gestantes y en periodo de lactancia.
             .tarjeta.bg4.tarjeta--slyder.p-4
               .row.justify-content-center.mb-3
                 .col-8
-                  img(src="@/assets/curso/temas/tema1/img27.svg", alt="alt").img100.m-auto
+                  img(src="@/assets/curso/temas/tema1/img27.svg", alt="").img100.m-auto
               p.text-center.mb-0 Personas mayores.
             .tarjeta.bg4.tarjeta--slyder.p-4
               .row.justify-content-center.mb-3
                 .col-8
-                  img(src="@/assets/curso/temas/tema1/img28.svg", alt="alt").img100.m-auto
+                  img(src="@/assets/curso/temas/tema1/img28.svg", alt="").img100.m-auto
               p.text-center.mb-0 Personas con enfermedades crónicas.
             .tarjeta.bg4.tarjeta--slyder.p-4
               .row.justify-content-center.mb-3
                 .col-8
-                  img(src="@/assets/curso/temas/tema1/img29.svg", alt="alt").img100.m-auto
-              p.text-center.mb-0 Población en condicion de vulnerabilidad social o económicas.
+                  img(src="@/assets/curso/temas/tema1/img29.svg", alt="").img100.m-auto
+              p.text-center.mb-0 Población en condición de vulnerabilidad social o económica.
     p.mb-4 La identificación de estos grupos permite orientar las intervenciones hacia el fortalecimiento de capacidades, la promoción de prácticas saludables y la reducción de riesgos en el entorno hogar, en coherencia con las necesidades del territorio.
     .row.justify-content-center.mb-4
       .col-lg-10

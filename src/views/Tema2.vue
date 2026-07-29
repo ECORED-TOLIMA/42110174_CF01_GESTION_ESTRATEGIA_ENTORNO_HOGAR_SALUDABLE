@@ -87,7 +87,7 @@
           .row.justify-content-center.mb-3
             .col-7
               figure
-                img(src='@/assets/curso/temas/tema2/img6.svg', alt='Texto que describa la imagen')
+                img(src='@/assets/curso/temas/tema2/img6.svg', alt="")
 
           h5.text-center Condiciones de vivienda
           p Una casa sin ventilación, con humedad o hacinamiento incrementa el riesgo de enfermedades respiratorias e infecciosas. Identificar estas condiciones durante la visita domiciliaria permite actuar sobre causas concretas y no solo sobre síntomas.
@@ -96,7 +96,7 @@
           .row.justify-content-center.mb-3
             .col-7
               figure
-                img(src='@/assets/curso/temas/tema2/img7.svg', alt='Texto que describa la imagen')
+                img(src='@/assets/curso/temas/tema2/img7.svg', alt="")
 
           h5.text-center Acceso a servicios básicos
           p La ausencia de agua potable, alcantarillado o recolección de residuos es un riesgo sanitario directo. Cuando el equipo detecta esta carencia, la canalización hacia la entidad territorial competente hace parte de la intervención en salud.
@@ -105,7 +105,7 @@
           .row.justify-content-center.mb-3
             .col-7
               figure
-                img(src='@/assets/curso/temas/tema2/img8.svg', alt='Texto que describa la imagen')
+                img(src='@/assets/curso/temas/tema2/img8.svg', alt="")
 
           h5.text-center Dinámicas familiares
           p La calidad de las relaciones al interior del hogar determina si la familia funciona como red protectora o como fuente de tensión. Esta dimensión se explora en la caracterización y orienta las acciones de acompañamiento familiar.
@@ -114,10 +114,10 @@
           .row.justify-content-center.mb-3
             .col-7
               figure
-                img(src='@/assets/curso/temas/tema2/img9.svg', alt='Texto que describa la imagen')
+                img(src='@/assets/curso/temas/tema2/img9.svg', alt="")
 
           h5.text-center Hábitos de vida
-          p Las prácticas cotidianas de higiene, alimentación y actividad física son modificables mediante educación para la salud. La estrategia no se limita a registrarlos, diseña acciones que promuevan cambios sostenibles en el hogar.
+          p Las prácticas cotidianas de higiene, alimentación y actividad física son modificables mediante educación para la salud. La estrategia no se limita a registrarlos; diseña acciones que promuevan cambios sostenibles en el hogar.
     .row.justify-content-center.mb-4
       .col-lg-10
         .p-4.cajon.color-secundario
@@ -177,33 +177,33 @@
     .row.justify-content-center.mb-5
       .col-10.col-md-6.col-lg-4.mb-4.mb-md-0(data-aos="fade-right")
         .tarjeta-avatar
-          img(src='@/assets/curso/temas/tema2/img10.svg' alt='AvatarTop')
+          img(src='@/assets/curso/temas/tema2/img10.svg' alt="")
           .tarjeta.color-primario.shadow
             .p-4
               .row.justify-content-center.mb-3
                 .col-auto
                   .py-2.px-3
                     p.mb-0 #[b Hacinamiento en la vivienda]
-              p.text-center.mb-0 Se orienta la gestión ante la entidad territorial para mejorar las condiciones habitacionales y se desarrollan actividades educativas sobre uso adecuado de los espacios del hogar.
+              p.text-center.mb-0 Se orienta la gestión ante la entidad territorial para mejorar las condiciones habitacionales y se desarrollan actividades educativas sobre el uso adecuado de los espacios del hogar.
       .col-10.col-md-6.col-lg-4.mb-4.mb-md-0(data-aos="fade-right")
         .tarjeta-avatar
-          img(src='@/assets/curso/temas/tema2/img11.svg' alt='AvatarTop')
+          img(src='@/assets/curso/temas/tema2/img11.svg' alt="")
           .tarjeta.color-primario.shadow
             .p-4
               .row.justify-content-center.mb-3
                 .col-auto
                   .py-2.px-3
-                    p.mb-0 #[b Limitaciones en el acceso a servicios básicos]
+                    p.text-center.mb-0 #[b Limitaciones en el acceso a servicios básicos]
               p.text-center.mb-0 Se activa la articulación institucional con los sectores competentes, como los de agua potable, saneamiento básico y recolección de residuos, para garantizar condiciones mínimas de salubridad en el hogar.
       .col-10.col-md-6.col-lg-4.mb-4.mb-md-0(data-aos="fade-right")
         .tarjeta-avatar
-          img(src='@/assets/curso/temas/tema2/img12.svg' alt='AvatarTop')
+          img(src='@/assets/curso/temas/tema2/img12.svg' alt="")
           .tarjeta.color-primario.shadow
             .p-4
               .row.justify-content-center.mb-3
                 .col-auto
                   .py-2.px-3
-                    p.mb-0 #[b Prácticas inadecuadas de autocuidado]
+                    p.text-center.mb-0 #[b Prácticas inadecuadas de autocuidado]
               p.text-center.mb-0 Se diseñan e implementan acciones de educación para la salud dirigidas a la familia, orientadas a fortalecer hábitos de higiene, alimentación y cuidado personal sostenibles.
     p Este análisis integrado, condición identificada y acción orientada, es el que convierte la visita domiciliaria en una intervención en salud con impacto real sobre la vida de las familias colombianas.
     p.mb-0 En coherencia con lo anterior, el marco conceptual orienta la forma en que se interpretan las condiciones del entorno y se definen las acciones en salud, lo cual da paso al desarrollo del marco operativo, donde estos fundamentos se traducen en procesos concretos para la intervención en el territorio.
@@ -282,7 +282,7 @@
               ul.lista-ul--color
                 li 
                   i.fas.fa-certificate
-                  p.mb-0 #[b Hacinamiento y deficiencias en servicios básicos:] identificados en el hogar orientan la priorización de intervenciones de saneamiento y mejoramiento de las condiciones habitacionales.
+                  p.mb-0 #[b Hacinamiento y deficiencias en servicios básicos:] identificados en el hogar, orientan la priorización de intervenciones de saneamiento y mejoramiento de las condiciones habitacionales.
                 li 
                   i.fas.fa-certificate
                   p.mb-0 #[b La priorización:] define las acciones de educación en salud dirigidas a la familia según las necesidades más urgentes del hogar.
@@ -346,40 +346,40 @@
       .row.justify-content-center.p-4
         .col-lg-4.d-none.d-lg-block
           figure(data-aos="zoom-in")
-            img(src="@/assets/curso/temas/tema2/img18.png", alt="alt").img400.m-auto
+            img(src="@/assets/curso/temas/tema2/img18.png", alt="").img400.m-auto
         .col-lg-8
           p.mb-4 En la práctica, la articulación de las cinco fases se evidencia en situaciones concretas del territorio colombiano:
           SlyderF.custom.mb-5(columnas="col-lg-6 col-xl-4")
             .tarjeta.bg4.tarjeta--slyder.p-4
               .row.justify-content-center.mb-3
                 .col-8
-                  img(src="@/assets/curso/temas/tema2/img19.svg", alt="alt").img100.m-auto
+                  img(src="@/assets/curso/temas/tema2/img19.svg", alt="").img100.m-auto
               h5.text-center Identificación de necesidades
               p.text-center.mb-0 El equipo recorre la comunidad y reconoce las condiciones del entorno, como hacinamiento, falta de agua potable o prácticas inadecuadas de higiene.
             .tarjeta.bg4.tarjeta--slyder.p-4
               .row.justify-content-center.mb-3
                 .col-8
-                  img(src="@/assets/curso/temas/tema2/img20.svg", alt="alt").img100.m-auto
+                  img(src="@/assets/curso/temas/tema2/img20.svg", alt="").img100.m-auto
               h5.text-center Planeación de acciones
               p.text-center.mb-0 Con base en las necesidades priorizadas, se definen actividades educativas y de acompañamiento pertinentes para cada familia.
             .tarjeta.bg4.tarjeta--slyder.p-4
               .row.justify-content-center.mb-3
                 .col-8
-                  img(src="@/assets/curso/temas/tema2/img21.svg", alt="alt").img100.m-auto
+                  img(src="@/assets/curso/temas/tema2/img21.svg", alt="").img100.m-auto
               h5.text-center Implementación
               p.text-center.mb-0 Se desarrollan las actividades acordadas en el hogar, con participación activa de los integrantes de la familia.
             .tarjeta.bg4.tarjeta--slyder.p-4
               .row.justify-content-center.mb-3
                 .col-8
-                  img(src="@/assets/curso/temas/tema2/img22.svg", alt="alt").img100.m-auto
+                  img(src="@/assets/curso/temas/tema2/img22.svg", alt="").img100.m-auto
               h5.text-center Seguimiento
               p.text-center.mb-0 El equipo verifica el cumplimiento de los compromisos y el avance en las condiciones del hogar.
             .tarjeta.bg4.tarjeta--slyder.p-4
               .row.justify-content-center.mb-3
                 .col-8
-                  img(src="@/assets/curso/temas/tema2/img23.svg", alt="alt").img100.m-auto
+                  img(src="@/assets/curso/temas/tema2/img23.svg", alt="").img100.m-auto
               h5.text-center Evaluación
-              p.text-center.mb-0 se valoran los resultados obtenidos y se ajustan las acciones según las condiciones del territorio.
+              p.text-center.mb-0 Se valoran los resultados obtenidos y se ajustan las acciones según las condiciones del territorio.
     p.mb-4 Esta secuencia demuestra que la metodología no es un esquema teórico, es una guía práctica que ordena cada decisión del equipo de salud desde el primer contacto con la familia hasta la verificación de los cambios logrados.
     .row.justify-content-center
       .col-lg-10
@@ -406,7 +406,7 @@
           .row.justify-content-center.mb-3
             .col-7
               figure
-                img(src='@/assets/curso/temas/tema2/img26.svg', alt='Texto que describa la imagen')
+                img(src='@/assets/curso/temas/tema2/img26.svg', alt="")
 
           h5.text-center Herramientas de caracterización
           p Orientadas a la recolección y organización de información sobre las condiciones del entorno hogar, permitiendo identificar necesidades, factores de riesgo y condiciones de vulnerabilidad.
@@ -415,7 +415,7 @@
           .row.justify-content-center.mb-3
             .col-7
               figure
-                img(src='@/assets/curso/temas/tema2/img27.svg', alt='Texto que describa la imagen')
+                img(src='@/assets/curso/temas/tema2/img27.svg', alt="")
 
           h5.text-center Herramientas de análisis
           p Utilizadas para interpretar la información recolectada, facilitando la priorización de problemáticas y la toma de decisiones en el territorio.
@@ -424,7 +424,7 @@
           .row.justify-content-center.mb-3
             .col-7
               figure
-                img(src='@/assets/curso/temas/tema2/img28.svg', alt='Texto que describa la imagen')
+                img(src='@/assets/curso/temas/tema2/img28.svg', alt="")
 
           h5.text-center Herramientas de planificación
           p Permiten estructurar las acciones a desarrollar, definiendo objetivos, actividades, responsables y recursos en función de las necesidades identificadas.
@@ -433,7 +433,7 @@
           .row.justify-content-center.mb-3
             .col-7
               figure
-                img(src='@/assets/curso/temas/tema2/img29.svg', alt='Texto que describa la imagen')
+                img(src='@/assets/curso/temas/tema2/img29.svg', alt="")
 
           h5.text-center Herramientas educativas
           p Orientadas a la promoción de la salud y al fortalecimiento de capacidades en las familias, mediante procesos pedagógicos adaptados al contexto.

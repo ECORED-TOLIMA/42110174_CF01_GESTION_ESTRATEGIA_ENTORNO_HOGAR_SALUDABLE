@@ -102,7 +102,7 @@
     .row.justify-content-center.mb-5
       .col-10.col-md-6.col-lg-4.mb-4.mb-md-0(data-aos="fade-right")
         .tarjeta-avatar
-          img(src='@/assets/curso/temas/tema6/img7.svg' alt='AvatarTop')
+          img(src='@/assets/curso/temas/tema6/img7.svg' alt="")
           .tarjeta.color-primario.shadow
             .p-4
               .row.justify-content-center.mb-3
@@ -112,7 +112,7 @@
               p.text-center.mb-0 Proceso de observación y anotación sistemática de las condiciones físicas, sociales y de salud encontradas durante la visita domiciliaria, que permite documentar la situación real de cada familia en el territorio.
       .col-10.col-md-6.col-lg-4.mb-4.mb-md-0(data-aos="fade-right")
         .tarjeta-avatar
-          img(src='@/assets/curso/temas/tema6/img8.svg' alt='AvatarTop')
+          img(src='@/assets/curso/temas/tema6/img8.svg' alt="")
           .tarjeta.color-primario.shadow
             .p-4
               .row.justify-content-center.mb-3
@@ -122,7 +122,7 @@
               p.text-center.mb-0 Clasificación ordenada de los datos recolectados según las dimensiones del entorno hogar, que facilita identificar las necesidades más urgentes y priorizar las intervenciones con criterio técnico y pertinencia territorial.
       .col-10.col-md-6.col-lg-4.mb-4.mb-md-0(data-aos="fade-right")
         .tarjeta-avatar
-          img(src='@/assets/curso/temas/tema6/img9.svg' alt='AvatarTop')
+          img(src='@/assets/curso/temas/tema6/img9.svg' alt="")
           .tarjeta.color-primario.shadow
             .p-4
               .row.justify-content-center.mb-3
@@ -153,37 +153,37 @@
         .tarjeta.color-primario.p-4
           .row.justify-content-center.mb-3
             .col-6
-              img(src='@/assets/curso/temas/tema6/img12.svg' alt='AvatarTop')
+              img(src='@/assets/curso/temas/tema6/img12.svg' alt="")
           h5.text-center Vivienda
           p.text-center Dimensión que evalúa las condiciones físicas del espacio habitado, considerando aspectos como infraestructura, ventilación e iluminación. Su análisis permite identificar factores de riesgo ambiental que inciden directamente en la salud de los integrantes del hogar.
         .tarjeta.color-primario.p-4
           .row.justify-content-center.mb-3
             .col-6
-              img(src='@/assets/curso/temas/tema6/img13.svg' alt='AvatarTop')
+              img(src='@/assets/curso/temas/tema6/img13.svg' alt="")
           h5.text-center Servicios básicos
           p.text-center Dimensión orientada a verificar la disponibilidad y calidad de recursos esenciales como el agua potable. Su ausencia o deficiencia constituye un determinante crítico en la aparición de enfermedades de origen hídrico y sanitario.
         .tarjeta.color-primario.p-4
           .row.justify-content-center.mb-3
             .col-6
-              img(src='@/assets/curso/temas/tema6/img14.svg' alt='AvatarTop')
+              img(src='@/assets/curso/temas/tema6/img14.svg' alt="")
           h5.text-center Salud
           p.text-center Dimensión que indaga sobre la presencia de enfermedades actuales en la familia. Esta información orienta la priorización de intervenciones y el acceso oportuno a los servicios de atención en salud disponibles en el territorio.
         .tarjeta.color-primario.p-4
           .row.justify-content-center.mb-3
             .col-6
-              img(src='@/assets/curso/temas/tema6/img15.svg' alt='AvatarTop')
+              img(src='@/assets/curso/temas/tema6/img15.svg' alt="")
           h5.text-center Prácticas de cuidado
           p.text-center Dimensión que examina los hábitos cotidianos relacionados con la higiene y la manipulación de alimentos. La frecuencia y adecuación de estas prácticas incide en la prevención de enfermedades y en el fortalecimiento del autocuidado familiar.
         .tarjeta.color-primario.p-4
           .row.justify-content-center.mb-3
             .col-6
-              img(src='@/assets/curso/temas/tema6/img16.svg' alt='AvatarTop')
+              img(src='@/assets/curso/temas/tema6/img16.svg' alt="")
           h5.text-center Dinámica familiar
           p.text-center Dimensión que valora la calidad de las relaciones entre los integrantes del hogar, incluyendo comunicación, convivencia y apoyo mutuo. Estos aspectos influyen directamente en el bienestar emocional y en la cohesión del núcleo familiar.
         .tarjeta.color-primario.p-4
           .row.justify-content-center.mb-3
             .col-6
-              img(src='@/assets/curso/temas/tema6/img17.svg' alt='AvatarTop')
+              img(src='@/assets/curso/temas/tema6/img17.svg' alt="")
           h5.text-center Acceso a servicios
           p.text-center Dimensión que verifica la afiliación al sistema de salud y la asistencia a controles médicos. Su análisis permite identificar barreras de acceso e implementar acciones de orientación para garantizar la continuidad en la atención.
     p.mb-4 El uso de este tipo de herramientas permite organizar la información de manera estructurada, facilitando su análisis y la identificación de necesidades en el entorno hogar. Asimismo, contribuye a la toma de decisiones informadas, orientando la formulación de intervenciones pertinentes y contextualizadas.
@@ -205,7 +205,7 @@
           .row.justify-content-center.mb-3
             .col-7
               figure
-                img(src='@/assets/curso/temas/tema6/img19.svg', alt='Texto que describa la imagen')
+                img(src='@/assets/curso/temas/tema6/img19.svg', alt="")
 
           h5.text-center Reconocimiento del entorno
           p Las herramientas educativas se diseñan considerando las condiciones específicas del lugar donde habitan las familias, de manera que los contenidos respondan a las realidades del contexto territorial en el que se desarrollan las intervenciones.
@@ -214,7 +214,7 @@
           .row.justify-content-center.mb-3
             .col-7
               figure
-                img(src='@/assets/curso/temas/tema6/img20.svg', alt='Texto que describa la imagen')
+                img(src='@/assets/curso/temas/tema6/img20.svg', alt="")
 
           h5.text-center Nivel educativo de la población
           p Los contenidos y recursos educativos se adaptan al grado de comprensión de las personas, garantizando que la información en salud sea accesible, comprensible y aplicable en la vida cotidiana de cada familia.
@@ -223,7 +223,7 @@
           .row.justify-content-center.mb-3
             .col-7
               figure
-                img(src='@/assets/curso/temas/tema6/img21.svg', alt='Texto que describa la imagen')
+                img(src='@/assets/curso/temas/tema6/img21.svg', alt="")
 
           h5.text-center Dinámicas culturales
           p Las herramientas educativas reconocen las prácticas, valores y costumbres propias de cada comunidad, asegurando que las acciones en salud sean pertinentes y respetuosas de la identidad cultural de las familias en el territorio.
@@ -232,7 +232,7 @@
           .row.justify-content-center.mb-3
             .col-7
               figure
-                img(src='@/assets/curso/temas/tema6/img22.svg', alt='Texto que describa la imagen')
+                img(src='@/assets/curso/temas/tema6/img22.svg', alt="")
 
           h5.text-center Adaptación a las necesidades familiares
           p Las herramientas se ajustan a las condiciones y requerimientos particulares de cada hogar, evitando enfoques generalizados que no consideren las diferencias entre las familias atendidas en el proceso de intervención.
@@ -292,7 +292,7 @@
             .col-lg-4.col-8.mb-4.mb-lg-0.order-1.order-lg-2
               img(src='@/assets/curso/temas/tema6/img29.svg', alt='')
     p.mb-4 La selección de estas estrategias debe realizarse en función de las necesidades identificadas en cada hogar, garantizando coherencia entre el contenido educativo, la población objetivo y los propósitos de la intervención.
-    p.mb-0 El reconocimiento de las herramientas educativas y su adecuada selección según las condiciones de cada hogar constituye la base para avanzar hacia la estructuración de las acciones de intervención. Este proceso se concreta en la formulación de un plan de acción que organiza, prioriza y orienta las actividades a desarrollar con las familias en el territorio.
+    p.mb-0 El reconocimiento de las herramientas educativas y su adecuada selección según las condiciones de cada hogar constituyen la base para avanzar hacia la estructuración de las acciones de intervención. Este proceso se concreta en la formulación de un plan de acción que organiza, prioriza y orienta las actividades a desarrollar con las familias en el territorio.
     Separador
     #t_6_4.titulo-segundo.color-acento-contenido(data-aos="fade-left")
       h2 6.4 Formulación del plan de acción
@@ -308,7 +308,7 @@
         .row.justify-content-center.mb-4
           .col-6
             figure
-              img(src='@/assets/curso/temas/tema6/img30.svg', alt='Texto que describa la imagen')
+              img(src='@/assets/curso/temas/tema6/img30.svg', alt="")
           
         h5.text-center Caracterización del entorno
         p Información recolectada sobre las condiciones físicas, sociales y familiares del hogar mediante los instrumentos definidos por el Ministerio de Salud y Protección Social, que permite identificar factores de riesgo y necesidades presentes en el territorio colombiano.
@@ -316,7 +316,7 @@
         .row.justify-content-center.mb-4
           .col-6
             figure
-              img(src='@/assets/curso/temas/tema6/img31.svg', alt='Texto que describa la imagen')
+              img(src='@/assets/curso/temas/tema6/img31.svg', alt="")
           
         h5.text-center Análisis de los determinantes sociales
         p Proceso de interpretación de los factores materiales, conductuales y relacionales que inciden en la salud de las familias, en coherencia con los lineamientos del Plan Decenal de Salud Pública y la Política de Atención Integral en Salud (PAIS).
@@ -324,7 +324,7 @@
         .row.justify-content-center.mb-4
           .col-6
             figure
-              img(src='@/assets/curso/temas/tema6/img32.svg', alt='Texto que describa la imagen')
+              img(src='@/assets/curso/temas/tema6/img32.svg', alt="")
           
         h5.text-center Priorización de necesidades
         p Selección de las situaciones que requieren intervención con mayor urgencia, considerando el nivel de riesgo, la población afectada y los recursos institucionales disponibles en el territorio, en articulación con los procesos de salud pública definidos para cada región.

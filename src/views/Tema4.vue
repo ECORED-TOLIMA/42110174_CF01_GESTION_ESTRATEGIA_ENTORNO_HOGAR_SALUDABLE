@@ -156,7 +156,7 @@
     .row.justify-content-center.mb-4
       .col-10.col-md-6.col-lg-3.mb-4.mb-md-0(data-aos="fade-right")
         .tarjeta-avatar
-          img(src='@/assets/curso/temas/tema4/img9.svg' alt='AvatarTop')
+          img(src='@/assets/curso/temas/tema4/img9.svg' alt="")
           .tarjeta.color-primario.shadow
             .p-4
               .row.justify-content-center.mb-3
@@ -165,7 +165,7 @@
               p.text-center.mb-0 Un hogar con buena infraestructura física puede presentar riesgos de salud por prácticas inadecuadas en la manipulación de alimentos.
       .col-10.col-md-6.col-lg-3.mb-4.mb-md-0(data-aos="fade-right")
         .tarjeta-avatar
-          img(src='@/assets/curso/temas/tema4/img10.svg' alt='AvatarTop')
+          img(src='@/assets/curso/temas/tema4/img10.svg' alt="")
           .tarjeta.color-primario.shadow
             .p-4
               .row.justify-content-center.mb-3
@@ -174,7 +174,7 @@
               p.text-center.mb-0 Las condiciones del entorno físico y los hábitos cotidianos actúan de manera simultánea e independiente sobre la salud familiar.
       .col-10.col-md-6.col-lg-3.mb-4.mb-md-0(data-aos="fade-right")
         .tarjeta-avatar
-          img(src='@/assets/curso/temas/tema4/img11.svg' alt='AvatarTop')
+          img(src='@/assets/curso/temas/tema4/img11.svg' alt="")
           .tarjeta.color-primario.shadow
             .p-4
               .row.justify-content-center.mb-3
@@ -183,7 +183,7 @@
               p.text-center.mb-0 El análisis de cada condición por separado permite identificar con precisión el origen del riesgo y orientar la acción específica que corresponde.
       .col-10.col-md-6.col-lg-3.mb-4.mb-md-0(data-aos="fade-right")
         .tarjeta-avatar
-          img(src='@/assets/curso/temas/tema4/img12.svg' alt='AvatarTop')
+          img(src='@/assets/curso/temas/tema4/img12.svg' alt="")
           .tarjeta.color-primario.shadow
             .p-4
               .row.justify-content-center.mb-3
@@ -205,7 +205,7 @@
               img(src='@/assets/curso/temas/tema4/img14.svg', alt='')
             .col-lg-10
               p.mb-0 En este contexto, los factores de riesgo se asocian con condiciones o prácticas que incrementan la probabilidad de afectación en la salud, mientras que los factores de protección corresponden a aquellos elementos que contribuyen al bienestar y a la reducción de riesgos. Desde esta perspectiva, el análisis de estos factores no se limita a la identificación de problemáticas, sino que también reconoce los recursos y fortalezas presentes en el entorno hogar, lo que favorece una intervención más integral.
-    p.mb-4 En el entorno hogar conviven simultáneamente condiciones que amenazan la salud y recursos que la protegen. En el siguiente recurso se presentan cada tipo con su definición y un ejemplo del contexto colombiano:
+    p.mb-4 En el entorno hogar conviven simultáneamente condiciones que amenazan la salud y recursos que la protegen. En el siguiente recurso se presenta cada tipo con su definición y un ejemplo del contexto colombiano:
     .row.justify-content-center.mb-4
       .col-lg-10
         .tarjeta--container.row.mb-5
@@ -213,7 +213,7 @@
             .row.justify-content-center.mb-4
               .col-6
                 figure
-                  img(src='@/assets/curso/temas/tema4/img15.svg', alt='Texto que describa la imagen')
+                  img(src='@/assets/curso/temas/tema4/img15.svg', alt="")
               
             h3.text-center Factores de riesgo
             p Condiciones o situaciones presentes en el hogar que aumentan la probabilidad de enfermar a sus integrantes, como el hacinamiento, la ventilación inadecuada, las prácticas deficientes de higiene, los conflictos familiares, la dificultad de acceso a servicios de salud y el aislamiento social. Por ejemplo, una familia que vive en una habitación pequeña con varios integrantes y sin ventilación suficiente tiene mayor probabilidad de presentar enfermedades respiratorias recurrentes entre sus miembros.
@@ -222,7 +222,7 @@
             .row.justify-content-center.mb-4
               .col-6
                 figure
-                  img(src='@/assets/curso/temas/tema4/img16.svg', alt='Texto que describa la imagen')
+                  img(src='@/assets/curso/temas/tema4/img16.svg', alt="")
               
             h3.text-center Factores de protección
             p Elementos presentes en el hogar que favorecen el bienestar y reducen la exposición a riesgos, como la vivienda adecuada, los espacios ventilados, los hábitos de higiene apropiados, las relaciones familiares saludables, el acceso a los servicios de salud y las redes de apoyo comunitario. Por ejemplo, una familia con vínculos comunitarios sólidos cuenta con apoyo para gestionar situaciones de enfermedad, lo que reduce su vulnerabilidad y fortalece su capacidad de respuesta ante las dificultades.

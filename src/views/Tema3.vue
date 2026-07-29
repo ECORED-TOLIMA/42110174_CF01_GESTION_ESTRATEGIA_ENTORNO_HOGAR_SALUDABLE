@@ -24,7 +24,7 @@
         .row.justify-content-center.mb-4
           .col-6
             figure
-              img(src='@/assets/curso/temas/tema3/img3.svg', alt='Texto que describa la imagen')
+              img(src='@/assets/curso/temas/tema3/img3.svg', alt="")
           
         h5.text-center Condiciones inadecuadas de vivienda
         p.mb-5 Cuando las visitas domiciliarias evidencian techos en mal estado, pisos de tierra o paredes húmedas en un barrio de invasión, el equipo de salud articula con la oficina de vivienda municipal o con el programa de mejoramiento habitacional del Ministerio de Vivienda para gestionar la intervención estructural que protege la salud de la familia.
@@ -32,15 +32,15 @@
         .row.justify-content-center.mb-4
           .col-6
             figure
-              img(src='@/assets/curso/temas/tema3/img4.svg', alt='Texto que describa la imagen')
+              img(src='@/assets/curso/temas/tema3/img4.svg', alt="")
           
         h5.text-center Limitaciones en el acceso a servicios básicos
-        p Ante la ausencia de agua potable o alcantarillado en una vereda, la secretaría de salud coordina con la empresa de servicios públicos y la alcaldía para garantizar condiciones mínimas de saneamiento, mientras el equipo desarrolla acciones educativas sobre el tratamiento casero del agua con las familias afectadas.
+        p Ante la ausencia de agua potable o alcantarillado en una vereda, la Secretaría de Salud coordina con la empresa de servicios públicos y la alcaldía para garantizar condiciones mínimas de saneamiento, mientras el equipo desarrolla acciones educativas sobre el tratamiento casero del agua con las familias afectadas.
       .col-md.tarjeta.bg4.p-5
         .row.justify-content-center.mb-4
           .col-6
             figure
-              img(src='@/assets/curso/temas/tema3/img5.svg', alt='Texto que describa la imagen')
+              img(src='@/assets/curso/temas/tema3/img5.svg', alt="")
           
         h5.text-center Problemáticas de desarrollo social
         p Cuando se identifican familias en situación de pobreza extrema, desplazamiento o violencia intrafamiliar, el equipo activa la ruta de articulación con el ICBF, la Unidad para las Víctimas o los programas sociales de la alcaldía, integrando la respuesta en salud con el apoyo institucional que corresponde a cada situación.
@@ -60,7 +60,7 @@
           figure
             img(src='@/assets/curso/temas/tema3/img6_1.svg', alt='La Figura 2, titulada “Sectores que inciden en la salud del hogar”, presenta el entorno hogar saludable en el centro, articulado con cuatro sectores: educación, vivienda, ambiente y desarrollo social. Se complementa con cuatro principios que orientan la implementación: equidad, participación, articulación intersectorial y adaptación al contexto. Los actores del territorio que hacen posible la estrategia son los servicios de salud, las instituciones educativas, las entidades territoriales y las organizaciones comunitarias.')
         .p-4.tarjeta.bg4
-          p.mb-0 La figura evidencia que el enfoque territorial e intersectorial no opera de manera fragmentada, cada sector, cada principio y cada actor se relaciona con el entorno hogar saludable como punto de convergencia. Esta articulación es la que hace posible intervenir las causas reales de los problemas de salud de las familias y generar respuestas sostenibles en el territorio.
+          p.mb-0 La figura evidencia que el enfoque territorial e intersectorial no opera de manera fragmentada; cada sector, cada principio y cada actor se relaciona con el entorno hogar saludable como punto de convergencia. Esta articulación es la que hace posible intervenir las causas reales de los problemas de salud de las familias y generar respuestas sostenibles en el territorio.
     p.mb-0 A partir de este enfoque, la estrategia de entorno hogar saludable se orienta hacia la implementación de acciones integrales que reconocen la complejidad del contexto territorial y la necesidad de trabajar de manera articulada con diferentes actores. Este proceso da lugar al análisis de los principios, actores y mecanismos de articulación que hacen posible la implementación de la estrategia en el territorio.
     Separador
     #t_3_1.titulo-segundo.color-acento-contenido(data-aos="fade-left")
@@ -159,7 +159,7 @@
                 p.mb-0 En cada visita domiciliaria, el equipo retoma los compromisos acordados con la familia en el encuentro anterior y verifica los avances logrados en las condiciones del hogar. Si una familia acordó tapar los tanques de agua y llevar a los niños a sus controles de crecimiento, la visita siguiente confirma el cumplimiento y ajusta las acciones necesarias. Este seguimiento sostenido convierte las intervenciones en un proceso continuo que produce cambios reales y duraderos en la salud de las familias colombianas.
       .col-lg-3.col-8.order-1.order-lg-2.mb-4.mb-lg-0(data-aos="zoom-in")
         figure
-          img(src="@/assets/curso/temas/tema3/img15.png", alt="alt", style="width:450px;").m-auto
+          img(src="@/assets/curso/temas/tema3/img15.png", alt="", style="width:450px;").m-auto
     p.mb-4 La aplicación articulada de estos seis principios en el territorio colombiano convierte cada visita domiciliaria en una intervención coherente, justa y sostenible, que reconoce la diversidad de las familias y responde a las condiciones reales de cada comunidad.
     p.mb-0 La puesta en práctica de estos principios no depende de un solo sector ni de una sola institución. Su aplicación efectiva en el territorio exige la participación coordinada de actores con funciones complementarias, cuya articulación hace posible que la estrategia llegue hasta cada hogar colombiano con pertinencia y continuidad.
     Separador
@@ -185,7 +185,7 @@
             .col-lg-3.col-4
               img(src='@/assets/curso/temas/tema3/img18.svg', alt='')
             .col-lg-9.col-8
-              p.mb-0 Entidades territorial de salud.
+              p.mb-0 Entidades territoriales de salud.
       .col-lg-4.col-10.mb-4
         .tarjeta.bg3
           .row.justify-content-center.align-items-center
@@ -206,7 +206,7 @@
             .col-lg-3.col-4
               img(src='@/assets/curso/temas/tema3/img21.svg', alt='')
             .col-lg-9.col-8
-              p.mb-0 Entidades otros sectores (vivienda, agua, desarrollo social).
+              p.mb-0 Entidades de otros sectores (vivienda, agua, desarrollo social).
       .col-lg-4.col-10.mb-4
         .tarjeta.bg3
           .row.justify-content-center.align-items-center
@@ -220,7 +220,7 @@
             .col-lg-3.col-4
               img(src='@/assets/curso/temas/tema3/img23.svg', alt='')
             .col-lg-9.col-8
-              p.mb-0 Familias cuidadores.
+              p.mb-0 Familias y personas cuidadoras.
     p.mb-4 La interacción entre estos actores permite desarrollar acciones complementarias en el territorio, en las cuales se integran capacidades técnicas, institucionales y comunitarias. Este trabajo conjunto facilita la implementación de intervenciones que responden de manera más efectiva a las condiciones identificadas en el entorno hogar.
     p.mb-4 En el territorio colombiano, cada actor cumple una función específica que complementa la de los demás. Su articulación se evidencia en situaciones concretas como las siguientes:
     .row.justify-content-center.mb-4
@@ -229,27 +229,27 @@
           ul.lista-ul--color
             li 
               i.fas.fa-certificate
-              p.mb-0 Las entidades territoriales de salud lideran la planeación y coordinan la respuesta institucional frente a las necesidades identificadas en los hogares del municipio.
+              p.mb-0 #[b Las entidades territoriales de salud] lideran la planeación y coordinan la respuesta institucional frente a las necesidades identificadas en los hogares del municipio.
             li 
               i.fas.fa-certificate
-              p.mb-0 Las instituciones prestadoras de servicios de salud garantizan la atención oportuna de las familias canalizadas durante las visitas domiciliarias y dan continuidad a los procesos de seguimiento.
+              p.mb-0 #[b Las instituciones prestadoras de servicios de salud] garantizan la atención oportuna de las familias canalizadas durante las visitas domiciliarias y dan continuidad a los procesos de seguimiento.
             li 
               i.fas.fa-certificate
-              p.mb-0 Las instituciones educativas refuerzan los mensajes de promoción de la salud con los estudiantes y sus familias, ampliando el alcance de las acciones iniciadas en el hogar. 
+              p.mb-0 #[b Las instituciones educativas] refuerzan los mensajes de promoción de la salud con los estudiantes y sus familias, ampliando el alcance de las acciones iniciadas en el hogar. 
             li 
               i.fas.fa-certificate
-              p.mb-0 Las entidades de otros sectores como vivienda, agua y desarrollo social intervienen las condiciones estructurales que el sector salud no puede resolver de manera aislada.
+              p.mb-0 #[b Las entidades de otros sectores] como vivienda, agua y desarrollo social intervienen las condiciones estructurales que el sector salud no puede resolver de manera aislada.
             li 
               i.fas.fa-certificate
-              p.mb-0 Las organizaciones comunitarias movilizan a la comunidad, facilitan la convocatoria a las actividades de salud y fortalecen las redes de apoyo entre las familias del territorio.
+              p.mb-0 #[b Las organizaciones comunitarias] movilizan a la comunidad, facilitan la convocatoria a las actividades de salud y fortalecen las redes de apoyo entre las familias del territorio.
             li 
               i.fas.fa-certificate
-              p.mb-0 Las organizaciones comunitarias movilizan a la comunidad, facilitan la convocatoria a las actividades de salud y fortalecen las redes de apoyo entre las familias del territorio.
+              p.mb-0 #[b Las familias y cuidadores] participan activamente en los compromisos acordados durante las visitas y son los principales responsables de sostener los cambios en el entorno hogar.
     p.mb-4 A partir de esta articulación, se consolidan procesos que favorecen la continuidad de las acciones en el territorio, contribuyendo al fortalecimiento de las capacidades locales y a la generación de respuestas sostenibles frente a las situaciones que afectan la salud de las familias.
     .row.justify-content-center.mb-4
       .col-lg-8.order-2.order-lg-1
         .p-4.tarjeta.bg3
-          p.mb-0 La articulación entre los actores del territorio proporciona la estructura institucional y comunitaria que hace posible la estrategia. Para que esa estructura se traduzca en intervenciones pertinentes, es necesario conocer las condiciones reales de los hogares, los determinantes sociales de la salud explican por qué algunas familias colombianas están más expuestas a enfermedades y ofrecen la base para priorizar las acciones con criterio técnico.
+          p.mb-0 La articulación entre los actores del territorio proporciona la estructura institucional y comunitaria que hace posible la estrategia. Para que esa estructura se traduzca en intervenciones pertinentes, es necesario conocer las condiciones reales de los hogares. Los determinantes sociales de la salud explican por qué algunas familias colombianas están más expuestas a enfermedades y ofrecen la base para priorizar las acciones con criterio técnico.
       .col-lg-4.co-8.mb-4.mb-lg-0.order-1.order-lg-2
         img(src='@/assets/curso/temas/tema3/img24.svg', alt='')
 </template>
