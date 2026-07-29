@@ -80,35 +80,35 @@
             .col-lg-3.col-4
               img(src='@/assets/curso/temas/tema3/img8.svg', alt='')
             .col-lg-9.col-8.p-4
-              p.mb-0 Equidad.
+              p.mb-0 Equidad
       .col-lg-4.col-10.mb-4
         .tarjeta.bg3
           .row.justify-content-center.align-items-center
             .col-lg-3.col-4
               img(src='@/assets/curso/temas/tema3/img9.svg', alt='')
             .col-lg-9.col-8.p-4
-              p.mb-0 Integridad.
+              p.mb-0 Integridad
       .col-lg-4.col-10.mb-4
         .tarjeta.bg3
           .row.justify-content-center.align-items-center
             .col-lg-3.col-4
               img(src='@/assets/curso/temas/tema3/img10.svg', alt='')
             .col-lg-9.col-8.p-4
-              p.mb-0 Participación social.
+              p.mb-0 Participación social
       .col-lg-4.col-10.mb-4
         .tarjeta.bg3
           .row.justify-content-center.align-items-center
             .col-lg-3.col-4
               img(src='@/assets/curso/temas/tema3/img11.svg', alt='')
             .col-lg-9.col-8.p-4
-              p.mb-0 Intersectorialidad.
+              p.mb-0 Intersectorialidad
       .col-lg-4.col-10.mb-4
         .tarjeta.bg3
           .row.justify-content-center.align-items-center
             .col-lg-3.col-4
               img(src='@/assets/curso/temas/tema3/img12.svg', alt='')
             .col-lg-9.col-8.p-4
-              p.mb-0 Pertinencia territorial.
+              p.mb-0 Pertinencia territorial
       .col-lg-4.col-10
         .tarjeta.bg3
           .row.justify-content-center.align-items-center
