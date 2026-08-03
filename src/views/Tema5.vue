@@ -268,7 +268,7 @@
             span Comparativa: Intervenciones individuales, familiares y colectivas
       .row.justify-content-center.align-items-center.mb-4
         .col-lg-10
-          .tabla-a.color-acento-contenido 
+          .tabla-a.color-acento-contenido.tabla-seguimiento
             .tabla-a.color-acento-contenido
               table
                 thead

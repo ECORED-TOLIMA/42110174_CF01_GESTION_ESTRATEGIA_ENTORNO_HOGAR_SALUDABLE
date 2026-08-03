@@ -114,6 +114,8 @@ figcaption
       color: #000 !important
   .linea-tiempo-d__item__content.tarjeta.tarjeta--gris
     background-color: #FFEADE
+    @media (max-width: $bp-max-sm)
+      padding: 10px
 .tarjeta.tarjeta--gris
   background-color: #FFEADE
 .linea-tiempo-d__item__number
@@ -276,3 +278,33 @@ tarjeta--boton
 
 .tarjeta-audio.color-acento-botones .tarjeta-audio__texto
   color: black
+
+// Tabla de seguimiento: conserva columnas legibles y permite desplazamiento en móvil
+.tabla-seguimiento
+  -webkit-overflow-scrolling: touch
+  table
+    min-width: 1200px
+    table-layout: fixed
+  th, td
+    overflow-wrap: anywhere
+    word-break: normal
+    white-space: normal
+    vertical-align: middle
+  thead th
+    font-size: 1rem
+    line-height: 1.25
+  th:first-child
+    width: 110px
+  th:nth-child(4)
+    width: 145px
+  th:last-child
+    width: 145px
+
+  @media (max-width: $bp-max-sm)
+    table
+      min-width: 1050px
+    th, td
+      padding: 12px 10px
+      font-size: 0.9rem !important
+    thead th
+      font-size: 0.9rem !important

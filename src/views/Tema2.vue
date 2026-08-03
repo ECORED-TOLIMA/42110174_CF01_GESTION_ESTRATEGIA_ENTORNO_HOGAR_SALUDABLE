@@ -132,7 +132,7 @@
     .row.justify-content-center.align-items-center.mb-4
       .col-lg-10
         .tabla-a.color-acento-contenido 
-          .tabla-a.color-acento-contenido
+          .tabla-a.color-acento-contenido.tabla-seguimiento
             table
               thead
                 tr
